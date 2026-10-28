@@ -1,0 +1,16 @@
+load "exec" : { "gas"  : 100000
+              , "data" : "0x00112233445566778899aabbccddeeff"
+              , "code" : PUSH(32, 20) ; PUSH(32, 4) ; PUSH(32, 32) ; CALLDATACOPY
+                         ; PUSH(32, 20) ; PUSH(32, 32) ; RETURN
+                         ; .OpCodes
+              }
+
+start
+
+check "out" : "0x445566778899aabbccddeeff0000000000000000"
+
+success
+
+clear
+
+.EthereumSimulation

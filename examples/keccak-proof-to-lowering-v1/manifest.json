@@ -1,0 +1,13 @@
+{
+  "schema": "recast-running-example-v2",
+  "program": "Figure 1 running example (51 bytes): B0 mask+branch, B1 MSTORE(0x40,x), B2 CALLDATACOPY(0x40,0,0x20), B3 LT(x,0x20) MSIZE KECCAK256(off,0x20)",
+  "source_commit": "338d123a5d9d4a464d8d0151158447d500a9997a",
+  "build_config": "STACK_SSA_LIFT=ON, MEMORY_PLAN_FRAMEWORK=ON, revision CANCUN",
+  "consumer": "KECCAK256",
+  "query_point_pc": "0x28",
+  "covered_bytecode": "bytecode-covered.hex",
+  "fallback_bytecode": "bytecode-uncovered.hex",
+  "dmir_dump": "dmir-dump.txt",
+  "dump_driver": "mir-dump-driver.cpp",
+  "oracle": "expected-oracle.json"
+}

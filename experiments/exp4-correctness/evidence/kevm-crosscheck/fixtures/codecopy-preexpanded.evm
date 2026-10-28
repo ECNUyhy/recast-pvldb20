@@ -1,0 +1,19 @@
+load "exec" : { "gas"  : 100000
+              , "code" : PUSH(32, 0) ; PUSH(32, 63) ; MSTORE8
+                         ; PUSH(32, 16)
+                         ; PUSH(32, 16) ; CODESIZE ; SUB
+                         ; PUSH(32, 32) ; CODECOPY
+                         ; PUSH(32, 16) ; PUSH(32, 32) ; RETURN
+                         ; PUSH(16, 88962710306127702866241727433142015)
+                         ; .OpCodes
+              }
+
+start
+
+check "out" : "0x00112233445566778899aabbccddeeff"
+
+success
+
+clear
+
+.EthereumSimulation

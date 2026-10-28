@@ -1,0 +1,12 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260901,
+  "bootstrap_unit": "code/revision pair stratified by bytecode-size quartile and execution-frequency tertile",
+  "default_policy": {
+    "compile_cpu_ratio_to_lowest_observed_median": 1.0298332094582097,
+    "maximum_memory_elision_code_fraction": 0.20698644421272158,
+    "memory_elision_code_fraction": 0.20698644421272158,
+    "query_budget_unknown_rate": 0.003772418058132344,
+    "warm_throughput_fraction_of_best_policy": 1.0
+  }
+}

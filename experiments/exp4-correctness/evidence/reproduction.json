@@ -1,0 +1,64 @@
+{
+  "schema": "recast-correctness-reproduction-v2",
+  "repository": "https://github.com/DTVMStack/DTVM",
+  "official_semantics": {
+    "state_test_driver_repository": "https://github.com/DTVMStack/evmone",
+    "state_test_driver_commit": "a4a0e47aff903a47a6be133c67ad106c706fe566",
+    "forks": [
+      "Frontier",
+      "Homestead",
+      "Tangerine Whistle",
+      "Spurious Dragon",
+      "Byzantium",
+      "Constantinople",
+      "ConstantinopleFix",
+      "Istanbul",
+      "Berlin",
+      "London",
+      "Paris",
+      "Shanghai",
+      "Cancun",
+      "Prague",
+      "Osaka"
+    ],
+    "post_cases": 76450,
+    "execution_modes": [
+      "interpreter",
+      "memory optimization disabled",
+      "proof recovery only",
+      "local proof consumers",
+      "full memory optimization with cross-block reuse"
+    ],
+    "configuration_case_executions": 382250,
+    "passed": 382250,
+    "checked_observables": [
+      "validity or expected exception",
+      "state root",
+      "logs hash",
+      "explicit post-state"
+    ],
+    "results": "frontier-osaka/validated-results.json",
+    "results_sha256": "1c8db2e9803fac47df0017b1ce7ffd3e5b1bf79e9e60f8b9ea1ef14e67382403",
+    "corpora": {
+      "execution_spec_tests_v5_4_0": {
+        "post_cases": 63556,
+        "source_archive_sha256": "3e2b02d49fe903eda4fd8caca5cbf0d139c470e97e1de9a85299b1b034f97099"
+      },
+      "ethereum_legacytests": {
+        "commit": "1f581b8ccdc4c63acf5f2c5c1b155c690c32a8eb",
+        "post_cases": 12894,
+        "source_archive_sha256": "ed16742e585db5ac4196bdf552ee126a68b777128e3e811bab179b36206dee35"
+      }
+    },
+    "test_binary_sha256": {
+      "state_test_driver": "8e553abe427d58c900c4e2b31c836aceca3216df8b15ede293c9ae57cacc201a",
+      "memory_framework_on": "b74b7bf1c867139f21e4a538196ae6c547c72bedbe9de30f2b6a41c76ed2a76c",
+      "memory_framework_off": "7c0c6edb2a26e588940cae470eebab31e3518336be0fd5afefaf5541b0415dc1"
+    }
+  },
+  "other_evidence": {
+    "routing_source_sha256": "c1b9b4549961f99795c86f5c83b0cb4243b4edfbe078cb21f6c4278a909c1ef3",
+    "seeded_campaign_manifest_sha256": "2108f9ec6f57b24dc3562641ceea3ad0f04cab2fcb0560ece6aba39691a81c8a",
+    "mutation_results_sha256": "12433fa7f1fb582c0df7470ed74eb7cc01bd811c4d6abd208ae920a2f0894507"
+  }
+}

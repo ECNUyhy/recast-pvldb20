@@ -1,0 +1,15 @@
+# Section 7.1 block-execution breakdown: reth 2.5.1, default settings, 7,185 consecutive mainnet blocks 26,238,738-26,245,922 (1,869,335 transactions).
+# Shares in percent; 95% CIs from a moving-block bootstrap over runs of 300 blocks.
+metric,value,ci95_low,ci95_high
+state_reads_share_of_block_execution_time,58.58,54.35,61.56
+evm_execution_share_of_block_execution_time,25.73,24.01,28.11
+recast_opcode_classes_share_of_block_execution_time,14.05,13.16,15.29
+recast_opcode_classes_share_of_evm_execution_time,54.63,,
+state_root_extension_of_block_processing,11.93,,
+state_reads_served_by_reth_caches,95.1,,
+cache_misses_share_of_timed_state_read_time,96.3,,
+evm_share_of_execution_thread_cpu_time,51.94,,
+recast_opcode_classes_share_of_execution_thread_cpu_time,28.37,,
+state_read_code_share_of_execution_thread_cpu_time,16.37,,
+evm_share_if_every_cache_miss_cost_a_hit,57.61,,
+top20_gas_recipients_with_evm_as_largest_component,10 of 20,,

@@ -1,0 +1,18 @@
+{
+  "case_count": 12894,
+  "cases_by_fork": {
+    "Constantinople": 10577,
+    "EIP150": 1096,
+    "EIP158": 1221
+  },
+  "generated_at_utc": "2026-08-23T02:32:13.668987+00:00",
+  "generator_python": "3.12.9",
+  "json_file_count": 2380,
+  "json_tree_sha256": "2fff0de8abcbc5321534ac695a8388497ca2583cbc75f362909daea20fdf1b4b",
+  "root": "<local>",
+  "schema_version": 1,
+  "semantic_case_set_sha256": "347be949dfb35291f1e146c2f39b6f7acd7663b57645f539f9ac9f5d61c56453",
+  "source_archive_sha256": "ed16742e585db5ac4196bdf552ee126a68b777128e3e811bab179b36206dee35",
+  "source_id": "ethereum-legacytests-1f581b8ccdc4c63acf5f2c5c1b155c690c32a8eb",
+  "state_test_count": 2380
+}

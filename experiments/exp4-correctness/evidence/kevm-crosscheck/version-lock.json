@@ -1,0 +1,15 @@
+{
+  "kevm_source": {
+    "tag": "v1.0.921",
+    "commit": "d4bf484a5dfe1e38d729a30434cd6f41e3590fb2"
+  },
+  "k_framework": {
+    "version": "7.1.337",
+    "commit": "4a46d1231473b599c699160132fd6e76a5c46406"
+  },
+  "llvm_backend": "0.1.140",
+  "kore": "0.1.155",
+  "z3": "4.13.4",
+  "ethereum_tests_commit": "c30599fb23d0470301f68bc69188ef444dcbc861"
+}
+

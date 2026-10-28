@@ -1,0 +1,56 @@
+{
+  "schema": "recast-mainnet-replay-figure-v5",
+  "source": "exp3-mainnet-replay.tsv",
+  "source_sha256": "b25bffa58f6d4c8c0abcc11a327f32a9a61c1c65186fdcc9b4d8dfc27ea6c249",
+  "block_count": 1000,
+  "first_block": 25817835,
+  "last_block": 25818834,
+  "series_columns": {
+    "ReCAST": "recast_ms",
+    "DTVM JIT": "dtvm_jit_ms",
+    "DTVM interpreter": "dtvm_interpreter_ms",
+    "evmone Baseline": "evmone_baseline_ms",
+    "evmone Advanced": "evmone_advanced_ms",
+    "Geth": "geth_ms"
+  },
+  "campaign_groups": {
+    "S": "sealed campaign, 2026-08-29",
+    "I": "DTVM interpreter leg, 2026-08-30",
+    "N": "paired evmone Baseline/Advanced leg, 2026-08-30",
+    "DTVM JIT": "DTVM baseline (three consumer families disabled), 2026-10-26, same replay harness"
+  },
+  "timing_boundary": {
+    "ReCAST": "native EVM block execution from executable-bytecode handoff to engine return",
+    "DTVM JIT": "reth subject execution with the DTVM multipass JIT in the DTVM baseline configuration",
+    "DTVM interpreter": "reth subject execution with the DTVM interpreter; same harness, corpus, and cache policy as the DTVM JIT",
+    "evmone Baseline": "reth subject execution with evmone default Baseline executor",
+    "evmone Advanced": "reth subject execution with evmone opt-in Advanced executor",
+    "Geth": "full-client execution"
+  },
+  "median_ms": {
+    "ReCAST": 73.297,
+    "DTVM JIT": 88.48349999999999,
+    "DTVM interpreter": 96.63,
+    "evmone Baseline": 123.6055,
+    "evmone Advanced": 199.5565,
+    "Geth": 221.80599999999998
+  },
+  "total_seconds": {
+    "ReCAST": 79.77123900000005,
+    "DTVM JIT": 96.43245600000007,
+    "DTVM interpreter": 105.18985600000002,
+    "evmone Baseline": 132.69203299999992,
+    "evmone Advanced": 214.574015,
+    "Geth": 1366.827033
+  },
+  "relative_to_recast_total": {
+    "DTVM JIT": 1.2088624573074516,
+    "DTVM interpreter": 1.318643878654059,
+    "evmone Baseline": 1.663406945453108,
+    "evmone Advanced": 2.6898668955110483,
+    "Geth": 17.134333754048864
+  },
+  "plot": "cumulative execution time from block 0 through block 1000; continuous symlog y-axis is linear from 0 to 10 seconds and logarithmic above 10 seconds; no smoothing or block exclusions",
+  "display_markers": "every 100 blocks; curves retain all 1000 per-block measurements",
+  "axis_scale": "symlog with linthresh=10 seconds, linscale=1.0, and base=10; tick labels remain in seconds"
+}

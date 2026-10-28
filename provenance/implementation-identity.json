@@ -1,0 +1,59 @@
+{
+  "schema": "recast-implementation-identity-v1",
+  "upstream_repository": "https://github.com/DTVMStack/DTVM",
+  "paper_system": {
+    "source_commit": "338d123a5d9d4a464d8d0151158447d500a9997a",
+    "source_tree": "e0263b5db732daeb5b9de699612c48f90db4173f"
+  },
+  "experiment_1": {
+    "recast_benchmark_sha256": "17fb4444a1188a25e15107f7e53f7c3c594301a08a18238250cffc8698fb0e1b",
+    "revmc_commit": "79e3c8ca1980d98c856034558ec7c7a9f3f3dd7d",
+    "revmc_benchmark_sha256": "9a6c35afa4853bb43a89beafa9ca5dfedaea15b44c84635017e40b72644906eb",
+    "measurement_identity": "Identified by timed-binary hashes; the released tables reproduce Figure 6"
+  },
+  "experiment_2": {
+    "recast_library_sha256": "401051923bc86a092b0f992827ba9819713de71de20c6537c6221fabc046fdc8",
+    "external_engines": {
+      "evmone_0.22.0": "1ea75472f771999a9430d35f382ca0117b495e41",
+      "revm_42.0.1": "fbb0028e10fac9ba97316463478bce1284fc0edd",
+      "geth_1.17.5": "9621c6ad10934a01b5514886fb6fbd87640b6c05",
+      "revmc": "cf68a87f627299a9c49bcc333a8a317c9b312a3d"
+    },
+    "detail": "Per-cohort workload cases and analysis summaries"
+  },
+  "experiment_3": {
+    "window": {
+      "first_block": 25817835,
+      "last_block": 25818834,
+      "block_count": 1000,
+      "transaction_count": 252730
+    },
+    "timing_source_sha256": "b25bffa58f6d4c8c0abcc11a327f32a9a61c1c65186fdcc9b4d8dfc27ea6c249",
+    "figure_generator_sha256": "90c3a47d14a1be3c8ab3a49755d07c0e6632a49dc0641e531afb3adbc41c4eb6",
+    "opportunity_census": {
+      "schedule_sha256": "9ff1c431aacd2b7ee2c1a666ea01549689847e0722b35394893eae621cd4bc2e",
+      "protocol_schema_sha256": "53c295fe2ab26d0a57603c90172203f3ced4daf18d8888b726c2b58ad5712fe8",
+      "result_sha256": "6850e1738595b79de0a591e78a297eb6e265bf105a0a9c6f9d029cd007adc994",
+      "scope": "Observed consumer sets only; the bounded-arithmetic row covers ADD/SUB/MUL/DIV/MOD and the union is a conservative lower bound",
+      "diagnostic_build": {
+        "build_sha256": "07cc8295b1bf96e6a9442931ef79ccb71246606d097cf495d6d2009b37efcc18"
+      }
+    },
+    "dtvm_jit_build": {
+      "configuration": "DTVM baseline: the three consumer families disabled",
+      "library_sha256": "78f3b458259aa3d0b9315d0623bb0872ca8d8619dbeb6c6da5503ef785f894d5"
+    }
+  },
+  "experiment_4": {
+    "state_test_driver_repository": "https://github.com/DTVMStack/evmone",
+    "state_test_driver_commit": "a4a0e47aff903a47a6be133c67ad106c706fe566",
+    "state_test_driver_sha256": "8e553abe427d58c900c4e2b31c836aceca3216df8b15ede293c9ae57cacc201a",
+    "memory_framework_on_binary_sha256": "b74b7bf1c867139f21e4a538196ae6c547c72bedbe9de30f2b6a41c76ed2a76c",
+    "memory_framework_off_binary_sha256": "7c0c6edb2a26e588940cae470eebab31e3518336be0fd5afefaf5541b0415dc1",
+    "results_sha256": "1c8db2e9803fac47df0017b1ce7ffd3e5b1bf79e9e60f8b9ea1ef14e67382403"
+  },
+  "experiment_5": {
+    "timed_executable_sha256": "71d6875c6768804c55703aa8948c1b8e3c13965f1f8195b747f2c439cdf2eb32",
+    "formal_manifest_sha256": "d411e89d54d96ef00aa2afe8c7ea8641f6adf21292f85059e4e89242d1eb8b2e"
+  }
+}

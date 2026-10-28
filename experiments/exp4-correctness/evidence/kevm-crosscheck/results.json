@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "executions": {
+    "passed": 7,
+    "expected": 7,
+    "checks": [
+      "upstream package smoke",
+      "CALLDATACOPY ordinary",
+      "CALLDATACOPY pre-expanded",
+      "CODECOPY ordinary",
+      "CODECOPY pre-expanded",
+      "KECCAK256 ordinary",
+      "KECCAK256 pre-expanded"
+    ]
+  },
+  "schedule": "Cancun",
+  "assertion": "paired fixtures produce identical output bytes",
+  "scope": "identical output bytes from empty and pre-expanded memory"
+}

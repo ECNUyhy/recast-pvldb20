@@ -1,0 +1,133 @@
+{
+  "cases": [
+    {
+      "code_bytes": 20485,
+      "code_file_sha256": "b58c0230eaea91eea19cd6f27e04e9286bc63ea6cf1e33a57dd685e43cb8c8ab",
+      "code_path": "<local>",
+      "code_sha256": "cf67b0a5647892aaba277e51291e15bcdf57eeffbf58adea2d0f64cefda995a2",
+      "family": "mload",
+      "fixture": "<local>",
+      "input_bytes": 32,
+      "input_file_sha256": "827d096d92f3deeaa0e8070d79f45beb176768e57a958a1cd325f5f4b754b048",
+      "input_path": "<local>",
+      "input_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "name": "memory_grow_mload-nogrow",
+      "variant": "nogrow"
+    },
+    {
+      "code_bytes": 20485,
+      "code_file_sha256": "b58c0230eaea91eea19cd6f27e04e9286bc63ea6cf1e33a57dd685e43cb8c8ab",
+      "code_path": "<local>",
+      "code_sha256": "cf67b0a5647892aaba277e51291e15bcdf57eeffbf58adea2d0f64cefda995a2",
+      "family": "mload",
+      "fixture": "<local>",
+      "input_bytes": 32,
+      "input_file_sha256": "f774fbb3f4cc0777bc80b6e86e6bf5ab70e2875ecc4c8cf102840d801a9a74ab",
+      "input_path": "<local>",
+      "input_sha256": "ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5",
+      "name": "memory_grow_mload-by1",
+      "variant": "by1"
+    },
+    {
+      "code_bytes": 20485,
+      "code_file_sha256": "b58c0230eaea91eea19cd6f27e04e9286bc63ea6cf1e33a57dd685e43cb8c8ab",
+      "code_path": "<local>",
+      "code_sha256": "cf67b0a5647892aaba277e51291e15bcdf57eeffbf58adea2d0f64cefda995a2",
+      "family": "mload",
+      "fixture": "<local>",
+      "input_bytes": 32,
+      "input_file_sha256": "5d3c6ef1adbec8e568985c47d90b34691c7230eaa5c8062504e10e1f9abfe167",
+      "input_path": "<local>",
+      "input_sha256": "a3ecde0c1d9daa6b7a949c87a1af7963c69cb2c412fb3086c495f14630c17b7b",
+      "name": "memory_grow_mload-by16",
+      "variant": "by16"
+    },
+    {
+      "code_bytes": 20485,
+      "code_file_sha256": "b58c0230eaea91eea19cd6f27e04e9286bc63ea6cf1e33a57dd685e43cb8c8ab",
+      "code_path": "<local>",
+      "code_sha256": "cf67b0a5647892aaba277e51291e15bcdf57eeffbf58adea2d0f64cefda995a2",
+      "family": "mload",
+      "fixture": "<local>",
+      "input_bytes": 32,
+      "input_file_sha256": "005ea95ec486ec5f9e2d123fc2d026fbdf82aee95d2c0189be5ff8aef40f8b0a",
+      "input_path": "<local>",
+      "input_sha256": "9633190bf775667487569d0f5e7adfebc899e55ab9d62aaabe9f8754a3fa9c20",
+      "name": "memory_grow_mload-by32",
+      "variant": "by32"
+    },
+    {
+      "code_bytes": 20485,
+      "code_file_sha256": "08670963a74627e55223562dcccb79c4e553195411adcc483dea3db21f3b43b5",
+      "code_path": "<local>",
+      "code_sha256": "f88a3b4fc978af2e44d8f3c3bed20bae8b315b74dc8f60e756b00ebdca822021",
+      "family": "mstore",
+      "fixture": "<local>",
+      "input_bytes": 32,
+      "input_file_sha256": "827d096d92f3deeaa0e8070d79f45beb176768e57a958a1cd325f5f4b754b048",
+      "input_path": "<local>",
+      "input_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "name": "memory_grow_mstore-nogrow",
+      "variant": "nogrow"
+    },
+    {
+      "code_bytes": 20485,
+      "code_file_sha256": "08670963a74627e55223562dcccb79c4e553195411adcc483dea3db21f3b43b5",
+      "code_path": "<local>",
+      "code_sha256": "f88a3b4fc978af2e44d8f3c3bed20bae8b315b74dc8f60e756b00ebdca822021",
+      "family": "mstore",
+      "fixture": "<local>",
+      "input_bytes": 32,
+      "input_file_sha256": "f774fbb3f4cc0777bc80b6e86e6bf5ab70e2875ecc4c8cf102840d801a9a74ab",
+      "input_path": "<local>",
+      "input_sha256": "ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5",
+      "name": "memory_grow_mstore-by1",
+      "variant": "by1"
+    },
+    {
+      "code_bytes": 20485,
+      "code_file_sha256": "08670963a74627e55223562dcccb79c4e553195411adcc483dea3db21f3b43b5",
+      "code_path": "<local>",
+      "code_sha256": "f88a3b4fc978af2e44d8f3c3bed20bae8b315b74dc8f60e756b00ebdca822021",
+      "family": "mstore",
+      "fixture": "<local>",
+      "input_bytes": 32,
+      "input_file_sha256": "5d3c6ef1adbec8e568985c47d90b34691c7230eaa5c8062504e10e1f9abfe167",
+      "input_path": "<local>",
+      "input_sha256": "a3ecde0c1d9daa6b7a949c87a1af7963c69cb2c412fb3086c495f14630c17b7b",
+      "name": "memory_grow_mstore-by16",
+      "variant": "by16"
+    },
+    {
+      "code_bytes": 20485,
+      "code_file_sha256": "08670963a74627e55223562dcccb79c4e553195411adcc483dea3db21f3b43b5",
+      "code_path": "<local>",
+      "code_sha256": "f88a3b4fc978af2e44d8f3c3bed20bae8b315b74dc8f60e756b00ebdca822021",
+      "family": "mstore",
+      "fixture": "<local>",
+      "input_bytes": 32,
+      "input_file_sha256": "005ea95ec486ec5f9e2d123fc2d026fbdf82aee95d2c0189be5ff8aef40f8b0a",
+      "input_path": "<local>",
+      "input_sha256": "9633190bf775667487569d0f5e7adfebc899e55ab9d62aaabe9f8754a3fa9c20",
+      "name": "memory_grow_mstore-by32",
+      "variant": "by32"
+    }
+  ],
+  "fixtures": [
+    {
+      "generated_test_hash": "c37e365d12df01440291d02aaac1bcfb07e000483437a881a8548fc9462359d5",
+      "path": "<local>",
+      "sha256": "3f4b218d8b2255b74e5abef0f43a14b4991d6bade89e04bc5fd1e25409ec06d7",
+      "source_hash": "26894703093bd254278478b0e2568f0a96c6f1a8de47b69149e77bf84f6607b7"
+    },
+    {
+      "generated_test_hash": "3eee38bd60d67ea688a50d30043eb8bd3bcf6ab59aa0bdc1aa7c67167ed440a1",
+      "path": "<local>",
+      "sha256": "a7789daeeed396bd3bde9d0fba17797c1487b09c4abf42260cafb6b02e621784",
+      "source_hash": "682b898d578db8d23f2ae8e756320d2afa73b6d219522a9b9fad49747e5adfc3"
+    }
+  ],
+  "fork": "Cancun",
+  "message_gas_limit": 9223372036854775807,
+  "schema": "recast-exp2-memory-cases-v1"
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "defaults": {
+    "MaxBlockVisits": 64,
+    "MaxOpVisits": 1024,
+    "MaxEdgeVisits": 256,
+    "MaxCompilationBlockVisits": 4096,
+    "MaxCompilationOpVisits": 65536,
+    "MaxCompilationEdgeVisits": 16384
+  },
+  "diagonal": [
+    {"label": "scale-025", "scale": 0.25, "query": [16, 256, 64], "compilation": [1024, 16384, 4096]},
+    {"label": "scale-050", "scale": 0.50, "query": [32, 512, 128], "compilation": [2048, 32768, 8192]},
+    {"label": "default", "scale": 1.00, "query": [64, 1024, 256], "compilation": [4096, 65536, 16384]},
+    {"label": "scale-200", "scale": 2.00, "query": [128, 2048, 512], "compilation": [8192, 131072, 32768]},
+    {"label": "scale-400", "scale": 4.00, "query": [256, 4096, 1024], "compilation": [16384, 262144, 65536]}
+  ],
+  "one_factor": [
+    {"label": "block-016", "query": [16, 1024, 256]},
+    {"label": "block-032", "query": [32, 1024, 256]},
+    {"label": "default", "query": [64, 1024, 256]},
+    {"label": "block-128", "query": [128, 1024, 256]},
+    {"label": "block-256", "query": [256, 1024, 256]},
+    {"label": "op-0256", "query": [64, 256, 256]},
+    {"label": "op-0512", "query": [64, 512, 256]},
+    {"label": "op-2048", "query": [64, 2048, 256]},
+    {"label": "op-4096", "query": [64, 4096, 256]},
+    {"label": "edge-064", "query": [64, 1024, 64]},
+    {"label": "edge-128", "query": [64, 1024, 128]},
+    {"label": "edge-512", "query": [64, 1024, 512]},
+    {"label": "edge-1024", "query": [64, 1024, 1024]}
+  ]
+}
+

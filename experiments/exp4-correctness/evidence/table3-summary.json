@@ -1,0 +1,62 @@
+{
+  "schema": "recast-correctness-table-v2",
+  "rows": [
+    {
+      "evidence": "Official semantics",
+      "scope": "All 15 mainnet revisions, Frontier-Osaka; 76450 post-cases across 5 execution configurations",
+      "result": {
+        "passed_executions": 382250,
+        "total_executions": 382250
+      },
+      "source": "frontier-osaka/validated-results.json",
+      "source_sha256": "1c8db2e9803fac47df0017b1ce7ffd3e5b1bf79e9e60f8b9ea1ef14e67382403"
+    },
+    {
+      "evidence": "Directed equivalence",
+      "scope": {
+        "boundary_tests": 1247,
+        "runtime_tests": 1367
+      },
+      "result": {
+        "passed_tests": 2614,
+        "total_tests": 2614
+      }
+    },
+    {
+      "evidence": "Consumer routing",
+      "scope": {
+        "routing_oracles": 27,
+        "candidate_sites": 735
+      },
+      "result": {
+        "passed_oracles": 27,
+        "total_oracles": 27,
+        "correctly_routed_sites": 735,
+        "total_sites": 735
+      },
+      "source_sha256": "c1b9b4549961f99795c86f5c83b0cb4243b4edfbe078cb21f6c4278a909c1ef3"
+    },
+    {
+      "evidence": "Safety and sensitivity",
+      "scope": {
+        "asan_tests": 315,
+        "seeded_tests": 164,
+        "targeted_mutants": 8
+      },
+      "result": {
+        "passed_tests": 479,
+        "total_tests": 479,
+        "detected_mutants": 8,
+        "total_mutants": 8
+      },
+      "source": {
+        "mutation_results": "mutation-results.tsv"
+      },
+      "source_sha256": {
+        "seeded_campaign_manifest": "2108f9ec6f57b24dc3562641ceea3ad0f04cab2fcb0560ece6aba39691a81c8a",
+        "mutation_results": "12433fa7f1fb582c0df7470ed74eb7cc01bd811c4d6abd208ae920a2f0894507"
+      }
+    }
+  ],
+  "units": "Each result retains its native evidence unit; no cross-row sum is used"
+}

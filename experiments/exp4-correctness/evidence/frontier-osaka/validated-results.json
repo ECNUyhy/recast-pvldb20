@@ -1,0 +1,169 @@
+{
+  "case_count_per_configuration": 76450,
+  "cases_by_fixture_label": {
+    "Berlin": 1249,
+    "Byzantium": 454,
+    "Cancun": 16847,
+    "Constantinople": 10577,
+    "ConstantinopleFix": 463,
+    "EIP150": 1096,
+    "EIP158": 1221,
+    "Frontier": 363,
+    "Homestead": 373,
+    "Istanbul": 608,
+    "London": 1504,
+    "Osaka": 19517,
+    "Paris": 1564,
+    "Prague": 18869,
+    "Shanghai": 1745
+  },
+  "configuration_count": 5,
+  "configurations": [
+    "interpreter",
+    "memory optimization disabled",
+    "proof recovery only",
+    "local proof consumers",
+    "full memory optimization with cross-block reuse"
+  ],
+  "corpora": {
+    "eest-v5.4.0": {
+      "case_count": 63556,
+      "cases_by_fork": {
+        "Berlin": 1249,
+        "Byzantium": 454,
+        "Cancun": 16847,
+        "ConstantinopleFix": 463,
+        "Frontier": 363,
+        "Homestead": 373,
+        "Istanbul": 608,
+        "London": 1504,
+        "Osaka": 19517,
+        "Paris": 1564,
+        "Prague": 18869,
+        "Shanghai": 1745
+      },
+      "generated_at_utc": "2026-08-23T02:32:17.706300+00:00",
+      "generator_python": "3.12.9",
+      "json_file_count": 2723,
+      "json_tree_sha256": "0d6f9da78747f9e78debbdd326e92d4ee6e74ab3f5f711ac2560755de16e8efd",
+      "root": "<local>",
+      "schema_version": 1,
+      "semantic_case_set_sha256": "363acce1e63f9cf38fc58b5fbce7c0e8563517e06a390d2dcd8947ee1c9f2445",
+      "source_archive_sha256": "3e2b02d49fe903eda4fd8caca5cbf0d139c470e97e1de9a85299b1b034f97099",
+      "source_id": "execution-spec-tests-v5.4.0",
+      "state_test_count": 63556
+    },
+    "legacy-mainnet-gaps": {
+      "case_count": 12894,
+      "cases_by_fork": {
+        "Constantinople": 10577,
+        "EIP150": 1096,
+        "EIP158": 1221
+      },
+      "generated_at_utc": "2026-08-23T02:32:13.668987+00:00",
+      "generator_python": "3.12.9",
+      "json_file_count": 2380,
+      "json_tree_sha256": "2fff0de8abcbc5321534ac695a8388497ca2583cbc75f362909daea20fdf1b4b",
+      "root": "<local>",
+      "schema_version": 1,
+      "semantic_case_set_sha256": "347be949dfb35291f1e146c2f39b6f7acd7663b57645f539f9ac9f5d61c56453",
+      "source_archive_sha256": "ed16742e585db5ac4196bdf552ee126a68b777128e3e811bab179b36206dee35",
+      "source_id": "ethereum-legacytests-1f581b8ccdc4c63acf5f2c5c1b155c690c32a8eb",
+      "state_test_count": 2380
+    }
+  },
+  "mainnet_revision_count": 15,
+  "mainnet_revisions": [
+    "Frontier",
+    "Homestead",
+    "Tangerine Whistle",
+    "Spurious Dragon",
+    "Byzantium",
+    "Constantinople",
+    "Petersburg",
+    "Istanbul",
+    "Berlin",
+    "London",
+    "Paris",
+    "Shanghai",
+    "Cancun",
+    "Prague",
+    "Osaka"
+  ],
+  "matrix_finished_utc": "2026-08-23T03:15:46Z",
+  "process_reports": {
+    "full-memory-optimization-with-cross-block-reuse.eest-v5.4.0": {
+      "disabled": 0,
+      "elapsed": "274.001s",
+      "errors": 0,
+      "failures": 0,
+      "registered_json_file_tests": 2723
+    },
+    "full-memory-optimization-with-cross-block-reuse.legacy-mainnet-gaps": {
+      "disabled": 0,
+      "elapsed": "22.218s",
+      "errors": 0,
+      "failures": 0,
+      "registered_json_file_tests": 2380
+    },
+    "interpreter.eest-v5.4.0": {
+      "disabled": 0,
+      "elapsed": "28.285s",
+      "errors": 0,
+      "failures": 0,
+      "registered_json_file_tests": 2723
+    },
+    "interpreter.legacy-mainnet-gaps": {
+      "disabled": 0,
+      "elapsed": "10.637s",
+      "errors": 0,
+      "failures": 0,
+      "registered_json_file_tests": 2380
+    },
+    "local-proof-consumers.eest-v5.4.0": {
+      "disabled": 0,
+      "elapsed": "280.032s",
+      "errors": 0,
+      "failures": 0,
+      "registered_json_file_tests": 2723
+    },
+    "local-proof-consumers.legacy-mainnet-gaps": {
+      "disabled": 0,
+      "elapsed": "23.741s",
+      "errors": 0,
+      "failures": 0,
+      "registered_json_file_tests": 2380
+    },
+    "memory-optimization-disabled.eest-v5.4.0": {
+      "disabled": 0,
+      "elapsed": "292.607s",
+      "errors": 0,
+      "failures": 0,
+      "registered_json_file_tests": 2723
+    },
+    "memory-optimization-disabled.legacy-mainnet-gaps": {
+      "disabled": 0,
+      "elapsed": "26.247s",
+      "errors": 0,
+      "failures": 0,
+      "registered_json_file_tests": 2380
+    },
+    "proof-recovery-only.eest-v5.4.0": {
+      "disabled": 0,
+      "elapsed": "292.667s",
+      "errors": 0,
+      "failures": 0,
+      "registered_json_file_tests": 2723
+    },
+    "proof-recovery-only.legacy-mainnet-gaps": {
+      "disabled": 0,
+      "elapsed": "26.809s",
+      "errors": 0,
+      "failures": 0,
+      "registered_json_file_tests": 2380
+    }
+  },
+  "result": "pass",
+  "schema_version": 1,
+  "validated_configuration_case_executions": 382250
+}

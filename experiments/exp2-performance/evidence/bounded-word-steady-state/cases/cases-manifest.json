@@ -1,0 +1,221 @@
+{
+  "cases": [
+    {
+      "code_bytes": 14363,
+      "code_file_sha256": "0ba3052062ec93d9739917b117b04d712dcaab72a8205310069b07ec4951501c",
+      "code_path": "<local>",
+      "code_sha256": "1205a3eb00fb4172e56e30ff8bb3c86a00fe833074386dbcf42e36fd5134ca17",
+      "family": "blake2b_huff",
+      "fixture": "<local>",
+      "input_bytes": 64,
+      "input_file_sha256": "2b22be1040a29bde28a27ff11ec08a2859605ebfbfb2f2df3907fe5d2f0820df",
+      "input_path": "<local>",
+      "input_sha256": "1e8a162b8929f27d4ee0bc6de76c4d186ee5b7500a658ee13bfb4429f596ffe6",
+      "name": "blake2b_huff-empty",
+      "static_numeric_opcode_census": {
+        "bitwise": 1504,
+        "candidate_numeric_ops": 2949,
+        "decoded_opcodes": 8803,
+        "shift": 477,
+        "unsigned_arithmetic": 966,
+        "unsigned_compare": 2
+      },
+      "variant": "empty"
+    },
+    {
+      "code_bytes": 14363,
+      "code_file_sha256": "0ba3052062ec93d9739917b117b04d712dcaab72a8205310069b07ec4951501c",
+      "code_path": "<local>",
+      "code_sha256": "1205a3eb00fb4172e56e30ff8bb3c86a00fe833074386dbcf42e36fd5134ca17",
+      "family": "blake2b_huff",
+      "fixture": "<local>",
+      "input_bytes": 8479,
+      "input_file_sha256": "36aa662835fb0f43e87ebc221d1bbfdf0b57621425d70e800c5a2c0df3dad222",
+      "input_path": "<local>",
+      "input_sha256": "011ec97041fb387f4f97ca24d4ff31b3be8bc6abfc30794ddc7b24b5b80f1a21",
+      "name": "blake2b_huff-8415nulls",
+      "static_numeric_opcode_census": {
+        "bitwise": 1504,
+        "candidate_numeric_ops": 2949,
+        "decoded_opcodes": 8803,
+        "shift": 477,
+        "unsigned_arithmetic": 966,
+        "unsigned_compare": 2
+      },
+      "variant": "8415nulls"
+    },
+    {
+      "code_bytes": 5712,
+      "code_file_sha256": "5beed5bd68f3570cc45006d698da775573178e64062ef36bb4af4b5851b5b0cf",
+      "code_path": "<local>",
+      "code_sha256": "634d51e6ea35280aa8e02e62d1723258f965e93b574f19908e8949ef196ad2fc",
+      "family": "blake2b_shifts",
+      "fixture": "<local>",
+      "input_bytes": 8547,
+      "input_file_sha256": "50307e9fcaccae4e7f6a6f36062c5319d1ae862925f21196a257c269fbc46beb",
+      "input_path": "<local>",
+      "input_sha256": "9a52b52c7ccb45b9bd2ba9e0b1e1d88411ff4bb33854d75a1257893505663985",
+      "name": "blake2b_shifts-8415nulls",
+      "static_numeric_opcode_census": {
+        "bitwise": 101,
+        "candidate_numeric_ops": 516,
+        "decoded_opcodes": 3608,
+        "shift": 16,
+        "unsigned_arithmetic": 281,
+        "unsigned_compare": 118
+      },
+      "variant": "8415nulls"
+    },
+    {
+      "code_bytes": 1842,
+      "code_file_sha256": "6c9c678f0c717c0ff24570b5e69d2d86687d880b7159201e431e73cff7fbec1f",
+      "code_path": "<local>",
+      "code_sha256": "8085a5eef4475c45359d80bfd86364e8c29bbb7a8e4dc00c7415b637a9c72fb1",
+      "family": "sha1_divs",
+      "fixture": "<local>",
+      "input_bytes": 68,
+      "input_file_sha256": "f943243df7b516acb3f4c4103061f6a5a2dc9f260aafad4d62d18891a8b7b270",
+      "input_path": "<local>",
+      "input_sha256": "697fc3b9cc05ff114f64b23b24798fc1ad9fdba1aa6ce6a3c5ad05951353e087",
+      "name": "sha1_divs-empty",
+      "static_numeric_opcode_census": {
+        "bitwise": 49,
+        "candidate_numeric_ops": 169,
+        "decoded_opcodes": 720,
+        "shift": 0,
+        "unsigned_arithmetic": 86,
+        "unsigned_compare": 34
+      },
+      "variant": "empty"
+    },
+    {
+      "code_bytes": 1842,
+      "code_file_sha256": "6c9c678f0c717c0ff24570b5e69d2d86687d880b7159201e431e73cff7fbec1f",
+      "code_path": "<local>",
+      "code_sha256": "8085a5eef4475c45359d80bfd86364e8c29bbb7a8e4dc00c7415b637a9c72fb1",
+      "family": "sha1_divs",
+      "fixture": "<local>",
+      "input_bytes": 5379,
+      "input_file_sha256": "cf46b9bb981b771616f61133f8445a48b38e061677e58f523670082493c1b31d",
+      "input_path": "<local>",
+      "input_sha256": "5d30f8ae972325698d8fe9764173a05cb6019cac6851adacd6c87e6d03d992d5",
+      "name": "sha1_divs-5311",
+      "static_numeric_opcode_census": {
+        "bitwise": 49,
+        "candidate_numeric_ops": 169,
+        "decoded_opcodes": 720,
+        "shift": 0,
+        "unsigned_arithmetic": 86,
+        "unsigned_compare": 34
+      },
+      "variant": "5311"
+    },
+    {
+      "code_bytes": 1266,
+      "code_file_sha256": "6d68cfa6e35e2bcfb64dde9152f0abd1da8f98c20c8e3a835a7b6c57b18c102f",
+      "code_path": "<local>",
+      "code_sha256": "8265fda393709a1d5be88771b900b4cd6d53c34b472f6325b4128d5c737f17bd",
+      "family": "sha1_shifts",
+      "fixture": "<local>",
+      "input_bytes": 68,
+      "input_file_sha256": "f943243df7b516acb3f4c4103061f6a5a2dc9f260aafad4d62d18891a8b7b270",
+      "input_path": "<local>",
+      "input_sha256": "697fc3b9cc05ff114f64b23b24798fc1ad9fdba1aa6ce6a3c5ad05951353e087",
+      "name": "sha1_shifts-empty",
+      "static_numeric_opcode_census": {
+        "bitwise": 59,
+        "candidate_numeric_ops": 180,
+        "decoded_opcodes": 731,
+        "shift": 32,
+        "unsigned_arithmetic": 55,
+        "unsigned_compare": 34
+      },
+      "variant": "empty"
+    },
+    {
+      "code_bytes": 1266,
+      "code_file_sha256": "6d68cfa6e35e2bcfb64dde9152f0abd1da8f98c20c8e3a835a7b6c57b18c102f",
+      "code_path": "<local>",
+      "code_sha256": "8265fda393709a1d5be88771b900b4cd6d53c34b472f6325b4128d5c737f17bd",
+      "family": "sha1_shifts",
+      "fixture": "<local>",
+      "input_bytes": 5379,
+      "input_file_sha256": "cf46b9bb981b771616f61133f8445a48b38e061677e58f523670082493c1b31d",
+      "input_path": "<local>",
+      "input_sha256": "5d30f8ae972325698d8fe9764173a05cb6019cac6851adacd6c87e6d03d992d5",
+      "name": "sha1_shifts-5311",
+      "static_numeric_opcode_census": {
+        "bitwise": 59,
+        "candidate_numeric_ops": 180,
+        "decoded_opcodes": 731,
+        "shift": 32,
+        "unsigned_arithmetic": 55,
+        "unsigned_compare": 34
+      },
+      "variant": "5311"
+    }
+  ],
+  "fixtures": [
+    {
+      "generated_test_hash": "c3883935bd0495c86a963b78b950cfe5ce7740de1d68feab505956b708487632",
+      "path": "<local>",
+      "sha256": "2d1e2161525ad2a32a4ee26851d94544e4ecbbf90db5be36658466d4a6a9f791",
+      "source_hash": "210f9afbf5a7d477c4b9f7a4e85ef061162d9d11392a7b50cadd797b98be4dc1",
+      "static_numeric_opcode_census": {
+        "bitwise": 1504,
+        "candidate_numeric_ops": 2949,
+        "decoded_opcodes": 8803,
+        "shift": 477,
+        "unsigned_arithmetic": 966,
+        "unsigned_compare": 2
+      }
+    },
+    {
+      "generated_test_hash": "9c70fc683d1f2ae48bacb706992a6d2f1e8ce71197b726d25ed12023ae2369e4",
+      "path": "<local>",
+      "sha256": "a5ba73865210c100d82d85ff86e0005fdc49dce251a764d2ce0fa5ca94070620",
+      "source_hash": "921101343751bba9e5167d1f1f405f9f9d812e65d88466b4d09dadc796130477",
+      "static_numeric_opcode_census": {
+        "bitwise": 101,
+        "candidate_numeric_ops": 516,
+        "decoded_opcodes": 3608,
+        "shift": 16,
+        "unsigned_arithmetic": 281,
+        "unsigned_compare": 118
+      }
+    },
+    {
+      "generated_test_hash": "5e4b8c01979f0944bfe936b08ba944360c0bdb302d38f9d577e50f82c42e8e45",
+      "path": "<local>",
+      "sha256": "6e26a621f68901bb977d253ba3ac23e1900751ee8e5155ab3352a38374a420ba",
+      "source_hash": "b70ca16aeffe8f3d14c41baa2fcd023590a2b94575200bee6b331d12b6b451d0",
+      "static_numeric_opcode_census": {
+        "bitwise": 49,
+        "candidate_numeric_ops": 169,
+        "decoded_opcodes": 720,
+        "shift": 0,
+        "unsigned_arithmetic": 86,
+        "unsigned_compare": 34
+      }
+    },
+    {
+      "generated_test_hash": "1cf4b401916f595313e7056af8cd44349c7fad17b10f66b5ec0771f68ede19d7",
+      "path": "<local>",
+      "sha256": "4405e9fa4c19a8de08bb942a633b4322fcdc4270af2bd8339d2102d7afb74f3c",
+      "source_hash": "3a727b04c54517d77df7e7e5852c8360ecebe957a4444e2ea6d7cb338019dce6",
+      "static_numeric_opcode_census": {
+        "bitwise": 59,
+        "candidate_numeric_ops": 180,
+        "decoded_opcodes": 731,
+        "shift": 32,
+        "unsigned_arithmetic": 55,
+        "unsigned_compare": 34
+      }
+    }
+  ],
+  "fork": "Cancun",
+  "message_gas_limit": 9223372036854775807,
+  "schema": "recast-exp2-bounded-word-cases-v1",
+  "selection_basis": "public bounded-word hash kernels",
+  "suite": "ipsilon/evm-benchmarks public hash kernels"
+}

@@ -1,0 +1,299 @@
+{
+  "builds": [
+    {
+      "command": [
+        "<local>",
+        "--optimize",
+        "--evm-version",
+        "cancun",
+        "--combined-json",
+        "bin,bin-runtime",
+        "benchmarks/erc20/approval-transfer/ERC20ApprovalTransfer.sol"
+      ],
+      "compiler": "<local>",
+      "compiler_sha256": "f3e987dc6ecebd4bd350c48edcbc320b46cf9e3109bd3fc3d88f1acaf4c428f7",
+      "compiler_version": "solc, the solidity compiler commandline interface\nVersion: 0.8.30+commit.73712a01.Linux.g++",
+      "cwd": "<local>",
+      "family": "erc20.approval-transfer"
+    },
+    {
+      "command": [
+        "<local>",
+        "--optimize",
+        "--evm-version",
+        "cancun",
+        "--combined-json",
+        "bin,bin-runtime",
+        "benchmarks/erc20/mint/ERC20Mint.sol"
+      ],
+      "compiler": "<local>",
+      "compiler_sha256": "f3e987dc6ecebd4bd350c48edcbc320b46cf9e3109bd3fc3d88f1acaf4c428f7",
+      "compiler_version": "solc, the solidity compiler commandline interface\nVersion: 0.8.30+commit.73712a01.Linux.g++",
+      "cwd": "<local>",
+      "family": "erc20.mint"
+    },
+    {
+      "command": [
+        "<local>",
+        "--optimize",
+        "--evm-version",
+        "cancun",
+        "--combined-json",
+        "bin,bin-runtime",
+        "benchmarks/erc20/transfer/ERC20Transfer.sol"
+      ],
+      "compiler": "<local>",
+      "compiler_sha256": "f3e987dc6ecebd4bd350c48edcbc320b46cf9e3109bd3fc3d88f1acaf4c428f7",
+      "compiler_version": "solc, the solidity compiler commandline interface\nVersion: 0.8.30+commit.73712a01.Linux.g++",
+      "cwd": "<local>",
+      "family": "erc20.transfer"
+    },
+    {
+      "command": [
+        "<local>",
+        "--optimize",
+        "--combined-json",
+        "bin,bin-runtime",
+        "benchmarks/snailtracer/SnailTracer.sol"
+      ],
+      "compiler": "<local>",
+      "compiler_sha256": "5d577b3f7918dd735ab157e2f37a21d06c90469f13868359874f15184f2fa4d0",
+      "compiler_version": "solc, the solidity compiler commandline interface\nVersion: 0.4.26+commit.4563c3fc.Linux.g++",
+      "cwd": "<local>",
+      "family": "snailtracer"
+    },
+    {
+      "command": [
+        "<local>",
+        "--optimize",
+        "--evm-version",
+        "cancun",
+        "--combined-json",
+        "bin,bin-runtime",
+        "benchmarks/ten-thousand-hashes/TenThousandHashes.sol"
+      ],
+      "compiler": "<local>",
+      "compiler_sha256": "f3e987dc6ecebd4bd350c48edcbc320b46cf9e3109bd3fc3d88f1acaf4c428f7",
+      "compiler_version": "solc, the solidity compiler commandline interface\nVersion: 0.8.30+commit.73712a01.Linux.g++",
+      "cwd": "<local>",
+      "family": "ten-thousand-hashes"
+    }
+  ],
+  "case_count": 8,
+  "cases": [
+    {
+      "code_bytes": 496,
+      "code_file_sha256": "d451c5e6d8c6a78ec2584306d12beae1e91433c3cd79de074e0daec98831eea2",
+      "code_path": "<local>",
+      "code_sha256": "ec1836ad8c8b9f34baae94bcfdf18ffbbb2365e06854aa755a05848fbdc678a7",
+      "family": "structarray_alloc",
+      "input_bytes": 36,
+      "input_file_sha256": "a8d75581cb189bd25b3a292d307630aadb7a871649c235f394f6fb54eda7ba36",
+      "input_path": "<local>",
+      "input_sha256": "dd77e5609eb3d4c546baa29e09eda286d1f495d21f4dd820f19515440ae2cd93",
+      "name": "structarray_alloc-nfts_rank",
+      "provenance": {
+        "fixture": "<local>",
+        "fixture_sha256": "ca12cbc1900d96b2bd9495e1d529b61223f71fd900f5aabf23be1b92d4755550",
+        "generated_test_hash": "0b04ffa1b5bf9654d39d45e4ffbea211b45543d991f4d89a8c7b504507934760",
+        "source_hash": "91cfd0882232416ff6d23079ff210106c9835bca3ffd62319baf7acc26c9bdd2",
+        "suite": "ipsilon/evm-benchmarks benchmarks/main"
+      },
+      "variant": "nfts_rank"
+    },
+    {
+      "code_bytes": 14658,
+      "code_file_sha256": "a8ca1931afd49d330e1fd23d32950d7baf83d2075eb682b0ed9ee9fa0fd5f2df",
+      "code_path": "<local>",
+      "code_sha256": "cdb35cd1c26ab558ad0ceeaccfab854c2f26cca428cc3165cb8af7ba6cae2fc9",
+      "family": "weierstrudel",
+      "input_bytes": 96,
+      "input_file_sha256": "6fa91def12d3d0b0ce37fdafc6a72a53fa82ad81873e3e2612ec4ffd0ef13e99",
+      "input_path": "<local>",
+      "input_sha256": "6f1ea371651495e7960be11aae91eeff74de78a30d3933b94ef88e1dcc2cf79c",
+      "name": "weierstrudel-1",
+      "provenance": {
+        "fixture": "<local>",
+        "fixture_sha256": "1791279ed099c542bd31999d93211a8ad7df9f2e7548366ef4123e7775171d0f",
+        "generated_test_hash": "c91530b27d4edf73854e3f08357fe5a7eb9798b5ea03b1d8a563f380c99a1fd7",
+        "source_hash": "40084fe4fed89ef13e41ab12577ca29a16427b594d33941efcc793ba3f09d951",
+        "suite": "ipsilon/evm-benchmarks benchmarks/main"
+      },
+      "variant": "1"
+    },
+    {
+      "code_bytes": 14658,
+      "code_file_sha256": "a8ca1931afd49d330e1fd23d32950d7baf83d2075eb682b0ed9ee9fa0fd5f2df",
+      "code_path": "<local>",
+      "code_sha256": "cdb35cd1c26ab558ad0ceeaccfab854c2f26cca428cc3165cb8af7ba6cae2fc9",
+      "family": "weierstrudel",
+      "input_bytes": 1440,
+      "input_file_sha256": "3fba7c7571d53224732f1bb71d5dd147e174a527f02f0e668cdf28fe432eff84",
+      "input_path": "<local>",
+      "input_sha256": "121cf87a04c43f760ec735c20fa1f7da8915ab8d79fcf91fd54d795ea25c7f61",
+      "name": "weierstrudel-15",
+      "provenance": {
+        "fixture": "<local>",
+        "fixture_sha256": "1791279ed099c542bd31999d93211a8ad7df9f2e7548366ef4123e7775171d0f",
+        "generated_test_hash": "c91530b27d4edf73854e3f08357fe5a7eb9798b5ea03b1d8a563f380c99a1fd7",
+        "source_hash": "40084fe4fed89ef13e41ab12577ca29a16427b594d33941efcc793ba3f09d951",
+        "suite": "ipsilon/evm-benchmarks benchmarks/main"
+      },
+      "variant": "15"
+    },
+    {
+      "code_bytes": 2892,
+      "code_file_sha256": "c370afda7be3b5aa9cb3b2861c535912843597f8c2f17202c7a704bc77f6b5f6",
+      "code_path": "<local>",
+      "code_sha256": "d007c236ae46bcc03f5facc14d9b624b4d30c1c2ad678417fb2e9250f52f54e1",
+      "creation_bytes": 3379,
+      "creation_file_sha256": "c667abcee8eb3611aa5ef8590ee794599a8459fc2e222ace2eed5234b0bc810b",
+      "creation_path": "<local>",
+      "creation_sha256": "f4de2308477671d54519872b0a7e1bf95f6837638814a84489afe045b5a7dc82",
+      "family": "erc20.approval-transfer",
+      "input_bytes": 4,
+      "input_file_sha256": "3683f45b8f103e8c1bec7859a3df0658b9475bc2868a6fae44c9ad8e5d19eaf3",
+      "input_path": "<local>",
+      "input_sha256": "4205d2269230e9e6f5dda73a1d0802f315ae5e71a7caae518187ba4f8db60373",
+      "name": "erc20-approval-transfer",
+      "provenance": {
+        "commit": "994942c07a6716fe6058ef23cef153b3f7b0d66d",
+        "compiler_role": "solc08",
+        "contract": "<local>",
+        "contract_sha256": "62a83f25a0545f9cf24f1e61d1419dabcba1584e22014dcbc063992c3382def3",
+        "metadata": "<local>",
+        "metadata_sha256": "8117f208df8da7e5ff95d159b58339e8db29629c7f2cb8887e602f621285643a",
+        "official_num_runs": 5,
+        "suite": "ziyadedher/evm-bench",
+        "tree": "5684ca186672bbb08b8bc5ad41c1c83d6176bcab"
+      },
+      "variant": "benchmark"
+    },
+    {
+      "code_bytes": 2317,
+      "code_file_sha256": "5095f3fe4018af5092c6830800f5964a57812306434ece10f0168b18cb134de8",
+      "code_path": "<local>",
+      "code_sha256": "fcce64d331d24a8102a660841b6bd0e1c28ade8ed80cbbc16f556f31d715f9d2",
+      "creation_bytes": 2783,
+      "creation_file_sha256": "bf15b7a409f4062bea4530b472c8d8956ee14a5054d0ac335274e9c479ae5ff9",
+      "creation_path": "<local>",
+      "creation_sha256": "d2c30eb74e11737e539fa019d93803a8a0d97962929dd2509e5e47d417b58f2a",
+      "family": "erc20.mint",
+      "input_bytes": 4,
+      "input_file_sha256": "3683f45b8f103e8c1bec7859a3df0658b9475bc2868a6fae44c9ad8e5d19eaf3",
+      "input_path": "<local>",
+      "input_sha256": "4205d2269230e9e6f5dda73a1d0802f315ae5e71a7caae518187ba4f8db60373",
+      "name": "erc20-mint",
+      "provenance": {
+        "commit": "994942c07a6716fe6058ef23cef153b3f7b0d66d",
+        "compiler_role": "solc08",
+        "contract": "<local>",
+        "contract_sha256": "519446d2af5f11d65688b025b1ad11539221a888baa2b1192414fbe1b202bcad",
+        "metadata": "<local>",
+        "metadata_sha256": "575ce0725a208aeca3cbe50db71830aa5dacb822895a83e589083ca6b5489181",
+        "official_num_runs": 5,
+        "suite": "ziyadedher/evm-bench",
+        "tree": "5684ca186672bbb08b8bc5ad41c1c83d6176bcab"
+      },
+      "variant": "benchmark"
+    },
+    {
+      "code_bytes": 2624,
+      "code_file_sha256": "3b1c87949a28cddfe7cb14a140070019675a62a82ab84177ee4044a7b05ddaf3",
+      "code_path": "<local>",
+      "code_sha256": "754841bc5db22eb04759c69e537f5208f2935432f671008977085eec225fba6c",
+      "creation_bytes": 3094,
+      "creation_file_sha256": "37b508902e3e3db422ca44c7ec0b8d0738826ff7fc7ac10877f467132a45355d",
+      "creation_path": "<local>",
+      "creation_sha256": "c60a028f94e2f3410b8d1611a4116d34e8b8f7807f8f6c1f1814bcc2748e7879",
+      "family": "erc20.transfer",
+      "input_bytes": 4,
+      "input_file_sha256": "3683f45b8f103e8c1bec7859a3df0658b9475bc2868a6fae44c9ad8e5d19eaf3",
+      "input_path": "<local>",
+      "input_sha256": "4205d2269230e9e6f5dda73a1d0802f315ae5e71a7caae518187ba4f8db60373",
+      "name": "erc20-transfer",
+      "provenance": {
+        "commit": "994942c07a6716fe6058ef23cef153b3f7b0d66d",
+        "compiler_role": "solc08",
+        "contract": "<local>",
+        "contract_sha256": "87c93681d765e915eea0eca70991981d1e58d661729dd3a7119495d90decf1eb",
+        "metadata": "<local>",
+        "metadata_sha256": "ff21c9ac7a2fcf339d61c57ce72ac68d3cfb283d9b649b7d93269ce0450b4c80",
+        "official_num_runs": 5,
+        "suite": "ziyadedher/evm-bench",
+        "tree": "5684ca186672bbb08b8bc5ad41c1c83d6176bcab"
+      },
+      "variant": "benchmark"
+    },
+    {
+      "code_bytes": 17608,
+      "code_file_sha256": "9b368c5486103d9e980928ed7219495cb085222a98ccb48a7cf6f4c875d58113",
+      "code_path": "<local>",
+      "code_sha256": "e913757110dd57ee59fa7378df48aa02c1cccec8e0d678a1286a4333869fc661",
+      "creation_bytes": 17640,
+      "creation_file_sha256": "ad358e71ae29c95e3a2ce0598cd56f110a6d4bd8e042095e8de3ffbb5fdb4d1e",
+      "creation_path": "<local>",
+      "creation_sha256": "1b160daf7b3e2befb43a80b451e777343712f7c03a3219c4ae8c7117f59b3de3",
+      "family": "snailtracer",
+      "input_bytes": 4,
+      "input_file_sha256": "3683f45b8f103e8c1bec7859a3df0658b9475bc2868a6fae44c9ad8e5d19eaf3",
+      "input_path": "<local>",
+      "input_sha256": "4205d2269230e9e6f5dda73a1d0802f315ae5e71a7caae518187ba4f8db60373",
+      "name": "snailtracer",
+      "provenance": {
+        "commit": "994942c07a6716fe6058ef23cef153b3f7b0d66d",
+        "compiler_role": "solc04",
+        "contract": "<local>",
+        "contract_sha256": "0ed46c4abef0ae9f8d9fd4d63a5e03a2e2753e02112e16caef100c0941c64f7d",
+        "metadata": "<local>",
+        "metadata_sha256": "30545a933c4618567cccddd0fe5e037989d4af043ebe0b6be328f2d88d30e9ca",
+        "official_num_runs": 1,
+        "suite": "ziyadedher/evm-bench",
+        "tree": "5684ca186672bbb08b8bc5ad41c1c83d6176bcab"
+      },
+      "variant": "benchmark"
+    },
+    {
+      "code_bytes": 151,
+      "code_file_sha256": "31ce0a2da1d5a1029615492fcefe6d72b56fa1e938133c4e2d9d1a32d2322a42",
+      "code_path": "<local>",
+      "code_sha256": "74638273e6d72db7238a6af750d3c37529b4ab5c6394540b4dbf573600a37d65",
+      "creation_bytes": 177,
+      "creation_file_sha256": "f592686e50c793490a4a96424cc1055513ff3179a39e71a6f3c89bdc6997bb2e",
+      "creation_path": "<local>",
+      "creation_sha256": "dfc8ecbaee7823a1853cd0c90c7a5691e0109e01dd488e2693e4c6b0ac01860d",
+      "family": "ten-thousand-hashes",
+      "input_bytes": 4,
+      "input_file_sha256": "3683f45b8f103e8c1bec7859a3df0658b9475bc2868a6fae44c9ad8e5d19eaf3",
+      "input_path": "<local>",
+      "input_sha256": "4205d2269230e9e6f5dda73a1d0802f315ae5e71a7caae518187ba4f8db60373",
+      "name": "ten-thousand-hashes",
+      "provenance": {
+        "commit": "994942c07a6716fe6058ef23cef153b3f7b0d66d",
+        "compiler_role": "solc08",
+        "contract": "<local>",
+        "contract_sha256": "4a9ba4b1d12462c25b632af7befd1faf4881a3988debedfebe6a4e1fc565d504",
+        "metadata": "<local>",
+        "metadata_sha256": "cfa8efd23c170cbd6e6ca8514a5c30214734a3d794adaf798e6dd596c38abc66",
+        "official_num_runs": 5,
+        "suite": "ziyadedher/evm-bench",
+        "tree": "5684ca186672bbb08b8bc5ad41c1c83d6176bcab"
+      },
+      "variant": "benchmark"
+    }
+  ],
+  "families": [
+    "erc20.approval-transfer",
+    "erc20.mint",
+    "erc20.transfer",
+    "snailtracer",
+    "structarray_alloc",
+    "ten-thousand-hashes",
+    "weierstrudel"
+  ],
+  "fork": "Cancun",
+  "message_gas_limit": 9223372036854775807,
+  "schema": "recast-exp2-public-contract-cases-v1",
+  "suite": "public contract cohort",
+  "workload_count": 7
+}

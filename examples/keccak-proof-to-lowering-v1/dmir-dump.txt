@@ -1,0 +1,406 @@
+
+######## KECCAK offset 0x40 ########
+
+func %0 (void*(0)) {
+@0:
+  successors: @3, @1
+
+  $1 = load (base = $0, offset = 33808)
+  $2 = add (add (ptrtoint ($0, i64), const.i64 1040), load (base = $0, offset = 33808))
+  $4 = ptrtoint (load (base = $0, offset = 232), i64)
+  $5 = load (base = $0, offset = 240)
+  $22 = icall i64 (target = const.i64 96925085029296, inttoptr (ptrtoint ($0, i64), void*(0)), const.i64 0)
+  $23 = and (bswap (load (base = inttoptr (add ($22, const.i64 24), i64*(0)))), const.i64 -1)
+  $6 = $23
+  $7 = const.i64 0
+  $8 = const.i64 0
+  $9 = const.i64 0
+  $10 = $23
+  $11 = const.i64 0
+  $12 = const.i64 0
+  $13 = const.i64 0
+  br_if cmp ieq ($23, const.i64 0), @3, @1
+@1:
+  predecessors: @0
+  successors: @20, @2
+
+  br_if and (cmp ieq (cmp ieq (const.i64 32, const.i64 0), const.i64 0), cmp ieq (and (and (cmp ieq (const.i64 0, const.i64 0), cmp ieq (const.i64 0, const.i64 0)), cmp ieq (const.i64 0, const.i64 0)), const.i64 0)), @20, @2
+@2:
+  predecessors: @1
+  successors: @10
+
+  icall void (target = const.i64 96925085035104, inttoptr (ptrtoint ($0, i64), void*(0)), select (cond = cmp ieq (const.i64 32, const.i64 0), lhs = const.i64 0, rhs = const.i64 64), const.i64 0, const.i64 32)
+  $5 = load (base = $0, offset = 240)
+  $24 = $6
+  $25 = $7
+  $26 = $8
+  $27 = $9
+  $28 = const.i64 64
+  $29 = const.i64 0
+  $30 = const.i64 0
+  $31 = const.i64 0
+  br @10
+@3:
+  predecessors: @0
+  successors: @20, @4
+
+  br_if or (cmp iult (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 64), cmp iugt (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 16777216)), @20, @4
+@4:
+  predecessors: @3
+  successors: @5, @9
+
+  br_if cmp iugt (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), $5), @5, @9
+@5:
+  predecessors: @4
+  successors: @20, @6
+
+  br_if cmp iult (load (base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0))), sub (add (udiv (mul (ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5), ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5)), const.i64 512), mul (const.i64 3, ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5))), add (udiv (mul (ushr (add ($5, const.i64 31), const.i64 5), ushr (add ($5, const.i64 31), const.i64 5)), const.i64 512), mul (const.i64 3, ushr (add ($5, const.i64 31), const.i64 5))))), @20, @6
+@6:
+  predecessors: @5
+  successors: @7, @8
+
+  store (value = sub (load (base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0))), sub (add (udiv (mul (ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5), ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5)), const.i64 512), mul (const.i64 3, ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5))), add (udiv (mul (ushr (add ($5, const.i64 31), const.i64 5), ushr (add ($5, const.i64 31), const.i64 5)), const.i64 512), mul (const.i64 3, ushr (add ($5, const.i64 31), const.i64 5))))), base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0)))
+  br_if cmp ine (ptrtoint (load (base = $0, offset = 384), i64), const.i64 0), @7, @8
+@7:
+  predecessors: @6
+  successors: @8
+
+  store (value = sub (load (base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0))), sub (add (udiv (mul (ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5), ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5)), const.i64 512), mul (const.i64 3, ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5))), add (udiv (mul (ushr (add ($5, const.i64 31), const.i64 5), ushr (add ($5, const.i64 31), const.i64 5)), const.i64 512), mul (const.i64 3, ushr (add ($5, const.i64 31), const.i64 5))))), base = inttoptr (add (ptrtoint (load (base = $0, offset = 384), i64), const.i64 16), i64*(0)))
+  br @8
+@8:
+  predecessors: @6, @7
+  successors: @9
+
+  icall void (target = const.i64 96925085036656, inttoptr (ptrtoint ($0, i64), void*(0)), shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5))
+  $5 = shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5)
+  $4 = ptrtoint (load (base = $0, offset = 232), i64)
+  br @9
+@9:
+  predecessors: @4, @8
+  successors: @10
+
+  $4 = ptrtoint (load (base = $0, offset = 232), i64)
+  $32 = inttoptr (add (ptrtoint (load (base = $0, offset = 232), i64), const.i64 64), void*(0))
+  store (value = bswap ($13), base = $32)
+  store (value = bswap ($12), base = $32, offset = 8)
+  store (value = bswap ($11), base = $32, offset = 16)
+  store (value = bswap ($10), base = $32, offset = 24)
+  $33 = $10
+  $34 = $11
+  $35 = $12
+  $36 = $13
+  $37 = const.i64 64
+  $38 = const.i64 0
+  $39 = const.i64 0
+  $40 = const.i64 0
+  br @10
+@10:
+  predecessors: @2, @9
+  successors: @20, @11
+
+  phi [@2: $24, @9: $33]
+  phi [@2: $25, @9: $34]
+  phi [@2: $26, @9: $35]
+  phi [@2: $27, @9: $36]
+  $41 = phi [@2: $24, @9: $33]
+
+  $42 = phi [@2: $25, @9: $34]
+
+  $43 = phi [@2: $26, @9: $35]
+
+  $44 = phi [@2: $27, @9: $36]
+
+  $45 = cmp iult ($41, const.i64 32)
+  $46 = $5
+  br_if and (cmp ieq (cmp ieq (const.i64 32, const.i64 0), const.i64 0), cmp ieq (and (and (cmp ieq (const.i64 0, const.i64 0), cmp ieq (const.i64 0, const.i64 0)), cmp ieq (const.i64 0, const.i64 0)), const.i64 0)), @20, @11
+@11:
+  predecessors: @10
+  successors: @20, @12
+
+  br_if cmp iult (load (base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0))), mul (ushr (add (const.i64 32, const.i64 31), const.i64 5), const.i64 6)), @20, @12
+@12:
+  predecessors: @11
+  successors: @13, @14
+
+  store (value = sub (load (base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0))), mul (ushr (add (const.i64 32, const.i64 31), const.i64 5), const.i64 6)), base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0)))
+  br_if cmp ine (ptrtoint (load (base = $0, offset = 384), i64), const.i64 0), @13, @14
+@13:
+  predecessors: @12
+  successors: @14
+
+  store (value = sub (load (base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0))), mul (ushr (add (const.i64 32, const.i64 31), const.i64 5), const.i64 6)), base = inttoptr (add (ptrtoint (load (base = $0, offset = 384), i64), const.i64 16), i64*(0)))
+  br @14
+@14:
+  predecessors: @12, @13
+  successors: @20, @15
+
+  $47 = icall i64 (target = const.i64 <GetKeccak256NoExpand>, inttoptr (ptrtoint ($0, i64), void*(0)), select (cond = cmp ieq (const.i64 32, const.i64 0), lhs = const.i64 0, rhs = const.i64 64), const.i64 32)
+  br_if cmp ieq ($47, const.i64 0), @20, @15
+@15:
+  predecessors: @14
+  successors: @20, @16
+
+  store (value = $41, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 0), i64*(0)))
+  store (value = $42, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 0), i64*(0)), offset = 8)
+  store (value = $43, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 0), i64*(0)), offset = 16)
+  store (value = $44, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 0), i64*(0)), offset = 24)
+  store (value = const.i64 64, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 32), i64*(0)))
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 32), i64*(0)), offset = 8)
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 32), i64*(0)), offset = 16)
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 32), i64*(0)), offset = 24)
+  store (value = $45, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 64), i64*(0)))
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 64), i64*(0)), offset = 8)
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 64), i64*(0)), offset = 16)
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 64), i64*(0)), offset = 24)
+  store (value = $46, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 96), i64*(0)))
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 96), i64*(0)), offset = 8)
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 96), i64*(0)), offset = 16)
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 96), i64*(0)), offset = 24)
+  store (value = bswap (load (base = inttoptr (add ($47, const.i64 24), i64*(0)))), base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 128), i64*(0)))
+  store (value = bswap (load (base = inttoptr (add ($47, const.i64 16), i64*(0)))), base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 128), i64*(0)), offset = 8)
+  store (value = bswap (load (base = inttoptr (add ($47, const.i64 8), i64*(0)))), base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 128), i64*(0)), offset = 16)
+  store (value = bswap (load (base = inttoptr (add ($47, const.i64 0), i64*(0)))), base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 128), i64*(0)), offset = 24)
+  $1 = const.i64 160
+  $2 = add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 160)
+  store (value = const.i64 160, base = $0, offset = 33808)
+  br_if cmp ieq (and (and (cmp ieq (const.i64 0, const.i64 0), cmp ieq (const.i64 0, const.i64 0)), cmp ieq (const.i64 0, const.i64 0)), const.i64 0), @20, @16
+@16:
+  predecessors: @15
+  successors: @20, @17
+
+  br_if and (cmp ieq (cmp ieq (const.i64 0, const.i64 0), const.i64 0), cmp ieq (and (and (cmp ieq (const.i64 0, const.i64 0), cmp ieq (const.i64 0, const.i64 0)), cmp ieq (const.i64 0, const.i64 0)), const.i64 0)), @20, @17
+@17:
+  predecessors: @16
+  successors: @18
+
+  icall void (target = const.i64 96925085038128, inttoptr (ptrtoint ($0, i64), void*(0)), select (cond = cmp ieq (const.i64 0, const.i64 0), lhs = const.i64 0, rhs = const.i64 0), const.i64 0)
+  br @18
+@18:
+  predecessors: @17
+
+  return
+@19:
+
+@20:
+  predecessors: @1, @3, @5, @10, @11, @14, @15, @16
+  successors: @22
+
+  store (value = const.i64 0, base = inttoptr (add (ptrtoint (load (base = $0, offset = 384), i64), const.i64 16), i64*(0)))
+  store (value = const.i64 0, base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0)))
+  $48 = const.i32 115
+  br @22
+@21:
+  successors: @22
+
+  store (value = const.i64 0, base = inttoptr (add (ptrtoint (load (base = $0, offset = 384), i64), const.i64 16), i64*(0)))
+  store (value = const.i64 0, base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0)))
+  $48 = const.i32 124
+  br @22
+@22:
+  predecessors: @20, @21
+  successors: @23
+
+  icall void (target = const.i64 96925086336992, ptrtoint ($0, i64), $48)
+  br @23
+@23:
+  predecessors: @22
+
+  icall void (target = const.i64 96925086337168, ptrtoint ($0, i64))
+  return
+}
+
+
+
+######## KECCAK offset 0x60 ########
+
+func %0 (void*(0)) {
+@0:
+  successors: @3, @1
+
+  $1 = load (base = $0, offset = 33808)
+  $2 = add (add (ptrtoint ($0, i64), const.i64 1040), load (base = $0, offset = 33808))
+  $4 = ptrtoint (load (base = $0, offset = 232), i64)
+  $5 = load (base = $0, offset = 240)
+  $22 = icall i64 (target = const.i64 96925085029296, inttoptr (ptrtoint ($0, i64), void*(0)), const.i64 0)
+  $23 = and (bswap (load (base = inttoptr (add ($22, const.i64 24), i64*(0)))), const.i64 -1)
+  $6 = $23
+  $7 = const.i64 0
+  $8 = const.i64 0
+  $9 = const.i64 0
+  $10 = $23
+  $11 = const.i64 0
+  $12 = const.i64 0
+  $13 = const.i64 0
+  br_if cmp ieq ($23, const.i64 0), @3, @1
+@1:
+  predecessors: @0
+  successors: @17, @2
+
+  br_if and (cmp ieq (cmp ieq (const.i64 32, const.i64 0), const.i64 0), cmp ieq (and (and (cmp ieq (const.i64 0, const.i64 0), cmp ieq (const.i64 0, const.i64 0)), cmp ieq (const.i64 0, const.i64 0)), const.i64 0)), @17, @2
+@2:
+  predecessors: @1
+  successors: @10
+
+  icall void (target = const.i64 96925085035104, inttoptr (ptrtoint ($0, i64), void*(0)), select (cond = cmp ieq (const.i64 32, const.i64 0), lhs = const.i64 0, rhs = const.i64 64), const.i64 0, const.i64 32)
+  $5 = load (base = $0, offset = 240)
+  $24 = $6
+  $25 = $7
+  $26 = $8
+  $27 = $9
+  $28 = const.i64 96
+  $29 = const.i64 0
+  $30 = const.i64 0
+  $31 = const.i64 0
+  br @10
+@3:
+  predecessors: @0
+  successors: @17, @4
+
+  br_if or (cmp iult (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 64), cmp iugt (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 16777216)), @17, @4
+@4:
+  predecessors: @3
+  successors: @5, @9
+
+  br_if cmp iugt (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), $5), @5, @9
+@5:
+  predecessors: @4
+  successors: @17, @6
+
+  br_if cmp iult (load (base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0))), sub (add (udiv (mul (ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5), ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5)), const.i64 512), mul (const.i64 3, ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5))), add (udiv (mul (ushr (add ($5, const.i64 31), const.i64 5), ushr (add ($5, const.i64 31), const.i64 5)), const.i64 512), mul (const.i64 3, ushr (add ($5, const.i64 31), const.i64 5))))), @17, @6
+@6:
+  predecessors: @5
+  successors: @7, @8
+
+  store (value = sub (load (base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0))), sub (add (udiv (mul (ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5), ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5)), const.i64 512), mul (const.i64 3, ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5))), add (udiv (mul (ushr (add ($5, const.i64 31), const.i64 5), ushr (add ($5, const.i64 31), const.i64 5)), const.i64 512), mul (const.i64 3, ushr (add ($5, const.i64 31), const.i64 5))))), base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0)))
+  br_if cmp ine (ptrtoint (load (base = $0, offset = 384), i64), const.i64 0), @7, @8
+@7:
+  predecessors: @6
+  successors: @8
+
+  store (value = sub (load (base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0))), sub (add (udiv (mul (ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5), ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5)), const.i64 512), mul (const.i64 3, ushr (add (shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5), const.i64 31), const.i64 5))), add (udiv (mul (ushr (add ($5, const.i64 31), const.i64 5), ushr (add ($5, const.i64 31), const.i64 5)), const.i64 512), mul (const.i64 3, ushr (add ($5, const.i64 31), const.i64 5))))), base = inttoptr (add (ptrtoint (load (base = $0, offset = 384), i64), const.i64 16), i64*(0)))
+  br @8
+@8:
+  predecessors: @6, @7
+  successors: @9
+
+  icall void (target = const.i64 96925085036656, inttoptr (ptrtoint ($0, i64), void*(0)), shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5))
+  $5 = shl (ushr (add (add (add (const.i64 64, const.i64 32), and (or (or (or ($10, $11), $12), $13), const.i64 0)), const.i64 31), const.i64 5), const.i64 5)
+  $4 = ptrtoint (load (base = $0, offset = 232), i64)
+  br @9
+@9:
+  predecessors: @4, @8
+  successors: @10
+
+  $4 = ptrtoint (load (base = $0, offset = 232), i64)
+  $32 = inttoptr (add (ptrtoint (load (base = $0, offset = 232), i64), const.i64 64), void*(0))
+  store (value = bswap ($13), base = $32)
+  store (value = bswap ($12), base = $32, offset = 8)
+  store (value = bswap ($11), base = $32, offset = 16)
+  store (value = bswap ($10), base = $32, offset = 24)
+  $33 = $10
+  $34 = $11
+  $35 = $12
+  $36 = $13
+  $37 = const.i64 96
+  $38 = const.i64 0
+  $39 = const.i64 0
+  $40 = const.i64 0
+  br @10
+@10:
+  predecessors: @2, @9
+  successors: @17, @11
+
+  phi [@2: $24, @9: $33]
+  phi [@2: $25, @9: $34]
+  phi [@2: $26, @9: $35]
+  phi [@2: $27, @9: $36]
+  $41 = phi [@2: $24, @9: $33]
+
+  $42 = phi [@2: $25, @9: $34]
+
+  $43 = phi [@2: $26, @9: $35]
+
+  $44 = phi [@2: $27, @9: $36]
+
+  $45 = cmp iult ($41, const.i64 32)
+  $46 = $5
+  br_if and (cmp ieq (cmp ieq (const.i64 32, const.i64 0), const.i64 0), cmp ieq (and (and (cmp ieq (const.i64 0, const.i64 0), cmp ieq (const.i64 0, const.i64 0)), cmp ieq (const.i64 0, const.i64 0)), const.i64 0)), @17, @11
+@11:
+  predecessors: @10
+  successors: @17, @12
+
+  $47 = icall i64 (target = const.i64 <GetKeccak256>, inttoptr (ptrtoint ($0, i64), void*(0)), select (cond = cmp ieq (const.i64 32, const.i64 0), lhs = const.i64 0, rhs = const.i64 96), const.i64 32)
+  br_if cmp ieq ($47, const.i64 0), @17, @12
+@12:
+  predecessors: @11
+  successors: @17, @13
+
+  $5 = load (base = $0, offset = 240)
+  store (value = $41, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 0), i64*(0)))
+  store (value = $42, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 0), i64*(0)), offset = 8)
+  store (value = $43, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 0), i64*(0)), offset = 16)
+  store (value = $44, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 0), i64*(0)), offset = 24)
+  store (value = const.i64 96, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 32), i64*(0)))
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 32), i64*(0)), offset = 8)
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 32), i64*(0)), offset = 16)
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 32), i64*(0)), offset = 24)
+  store (value = $45, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 64), i64*(0)))
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 64), i64*(0)), offset = 8)
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 64), i64*(0)), offset = 16)
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 64), i64*(0)), offset = 24)
+  store (value = $46, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 96), i64*(0)))
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 96), i64*(0)), offset = 8)
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 96), i64*(0)), offset = 16)
+  store (value = const.i64 0, base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 96), i64*(0)), offset = 24)
+  store (value = bswap (load (base = inttoptr (add ($47, const.i64 24), i64*(0)))), base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 128), i64*(0)))
+  store (value = bswap (load (base = inttoptr (add ($47, const.i64 16), i64*(0)))), base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 128), i64*(0)), offset = 8)
+  store (value = bswap (load (base = inttoptr (add ($47, const.i64 8), i64*(0)))), base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 128), i64*(0)), offset = 16)
+  store (value = bswap (load (base = inttoptr (add ($47, const.i64 0), i64*(0)))), base = inttoptr (add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 128), i64*(0)), offset = 24)
+  $1 = const.i64 160
+  $2 = add (add (ptrtoint ($0, i64), const.i64 1040), const.i64 160)
+  store (value = const.i64 160, base = $0, offset = 33808)
+  br_if cmp ieq (and (and (cmp ieq (const.i64 0, const.i64 0), cmp ieq (const.i64 0, const.i64 0)), cmp ieq (const.i64 0, const.i64 0)), const.i64 0), @17, @13
+@13:
+  predecessors: @12
+  successors: @17, @14
+
+  br_if and (cmp ieq (cmp ieq (const.i64 0, const.i64 0), const.i64 0), cmp ieq (and (and (cmp ieq (const.i64 0, const.i64 0), cmp ieq (const.i64 0, const.i64 0)), cmp ieq (const.i64 0, const.i64 0)), const.i64 0)), @17, @14
+@14:
+  predecessors: @13
+  successors: @15
+
+  icall void (target = const.i64 96925085038128, inttoptr (ptrtoint ($0, i64), void*(0)), select (cond = cmp ieq (const.i64 0, const.i64 0), lhs = const.i64 0, rhs = const.i64 0), const.i64 0)
+  br @15
+@15:
+  predecessors: @14
+
+  return
+@16:
+
+@17:
+  predecessors: @1, @3, @5, @10, @11, @12, @13
+  successors: @19
+
+  store (value = const.i64 0, base = inttoptr (add (ptrtoint (load (base = $0, offset = 384), i64), const.i64 16), i64*(0)))
+  store (value = const.i64 0, base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0)))
+  $48 = const.i32 115
+  br @19
+@18:
+  successors: @19
+
+  store (value = const.i64 0, base = inttoptr (add (ptrtoint (load (base = $0, offset = 384), i64), const.i64 16), i64*(0)))
+  store (value = const.i64 0, base = inttoptr (add (ptrtoint ($0, i64), const.i64 176), i64*(0)))
+  $48 = const.i32 124
+  br @19
+@19:
+  predecessors: @17, @18
+  successors: @20
+
+  icall void (target = const.i64 96925086336992, ptrtoint ($0, i64), $48)
+  br @20
+@20:
+  predecessors: @19
+
+  icall void (target = const.i64 96925086337168, ptrtoint ($0, i64))
+  return
+}

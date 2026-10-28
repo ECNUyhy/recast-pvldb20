@@ -1,0 +1,5 @@
+mechanism	admitted_codes_n	code_denominator	admitted_codes_percent	active_transactions_n	transaction_denominator	active_transactions_percent	scope_status	notes
+Memory proof consumers	4689	15344	30.559176	16452	252730	6.509714	observed	LOG excluded; memory consumers only.
+Observed arithmetic subset: ADD/SUB/MUL/DIV/MOD	2864	15344	18.665276	40303	252730	15.947058	observed_subset	Does not represent comparison, bitwise, ISZERO/JUMPI, or constant-shift consumers.
+Stack SSA	1477	15344	9.625912	13914	252730	5.505480	observed	Cross-block direct stack transfers; generic materialize/reload routes are not specialized activations.
+Any observed mechanism (lower bound)	8068	15344	52.580813	52049	252730	20.594706	lower_bound_union	Set union of the three observed rows.

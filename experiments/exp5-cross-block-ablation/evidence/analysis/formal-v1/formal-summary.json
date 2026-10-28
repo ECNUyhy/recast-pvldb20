@@ -1,0 +1,524 @@
+{
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 20260820,
+  "case_count": 99,
+  "cycles": 12,
+  "domains": {
+    "memory": {
+      "absolute_time": {
+        "Cross-block target disabled": {
+          "ci_high_ns": 1192.538853326246,
+          "ci_low_ns": 1181.5181139517451,
+          "estimate_ns": 1186.706082050352
+        },
+        "Full ReCAST": {
+          "ci_high_ns": 1126.6391086090407,
+          "ci_low_ns": 1119.0567962912444,
+          "estimate_ns": 1122.6317058338104
+        },
+        "ReCAST core disabled": {
+          "ci_high_ns": 1194.9675566676901,
+          "ci_low_ns": 1188.0714131635998,
+          "estimate_ns": 1191.3585165190582
+        },
+        "Target domain disabled": {
+          "ci_high_ns": 1200.5059036917041,
+          "ci_low_ns": 1189.4590678847924,
+          "estimate_ns": 1194.5563401569188
+        }
+      },
+      "case_count": 45,
+      "densities": {
+        "high": {
+          "absolute_time": {
+            "Cross-block target disabled": {
+              "ci_high_ns": 1887.5995586147185,
+              "ci_low_ns": 1848.2211294435615,
+              "estimate_ns": 1865.5692598838582
+            },
+            "Full ReCAST": {
+              "ci_high_ns": 1706.9310100463874,
+              "ci_low_ns": 1678.818443088267,
+              "estimate_ns": 1691.2725327221194
+            },
+            "ReCAST core disabled": {
+              "ci_high_ns": 1879.7257635580963,
+              "ci_low_ns": 1854.828816610956,
+              "estimate_ns": 1866.139694597688
+            },
+            "Target domain disabled": {
+              "ci_high_ns": 1896.1992824264735,
+              "ci_low_ns": 1855.3639845386579,
+              "estimate_ns": 1872.7244118530027
+            }
+          },
+          "case_count": 15,
+          "ratios": {
+            "Cross-block target disabled": {
+              "ci_high": 1.1096088883916266,
+              "ci_low": 1.0969425627790725,
+              "estimate": 1.1030565587683296
+            },
+            "ReCAST core disabled": {
+              "ci_high": 1.1075213359763902,
+              "ci_low": 1.0993906299521568,
+              "estimate": 1.1033938401365262
+            },
+            "Target domain disabled": {
+              "ci_high": 1.1137988621222428,
+              "ci_low": 1.1016334399076602,
+              "estimate": 1.1072871909288533
+            }
+          }
+        },
+        "low": {
+          "absolute_time": {
+            "Cross-block target disabled": {
+              "ci_high_ns": 817.9779518462739,
+              "ci_low_ns": 811.7673556312429,
+              "estimate_ns": 814.8803595981171
+            },
+            "Full ReCAST": {
+              "ci_high_ns": 805.34527536654,
+              "ci_low_ns": 798.679985491375,
+              "estimate_ns": 801.9830108663059
+            },
+            "ReCAST core disabled": {
+              "ci_high_ns": 829.5612065342654,
+              "ci_low_ns": 824.2521355831199,
+              "estimate_ns": 826.9552711530162
+            },
+            "Target domain disabled": {
+              "ci_high_ns": 824.027932021291,
+              "ci_low_ns": 819.3596553218299,
+              "estimate_ns": 821.6766107639039
+            }
+          },
+          "case_count": 15,
+          "ratios": {
+            "Cross-block target disabled": {
+              "ci_high": 1.0202984100528725,
+              "ci_low": 1.0118850693482269,
+              "estimate": 1.016081822877868
+            },
+            "ReCAST core disabled": {
+              "ci_high": 1.035529659785515,
+              "ci_low": 1.026726171418581,
+              "estimate": 1.0311381412677747
+            },
+            "Target domain disabled": {
+              "ci_high": 1.028415275492446,
+              "ci_low": 1.02042600167363,
+              "estimate": 1.024556131028667
+            }
+          }
+        },
+        "medium": {
+          "absolute_time": {
+            "Cross-block target disabled": {
+              "ci_high_ns": 1108.5690685595177,
+              "ci_low_ns": 1091.5166982389353,
+              "estimate_ns": 1099.3203744125874
+            },
+            "Full ReCAST": {
+              "ci_high_ns": 1046.8213448609888,
+              "ci_low_ns": 1039.6041794699827,
+              "estimate_ns": 1043.1172964055625
+            },
+            "ReCAST core disabled": {
+              "ci_high_ns": 1100.7983752197576,
+              "ci_low_ns": 1091.4079068705473,
+              "estimate_ns": 1095.7241926804782
+            },
+            "Target domain disabled": {
+              "ci_high_ns": 1116.9452762541923,
+              "ci_low_ns": 1099.9099414913053,
+              "estimate_ns": 1107.7585644895762
+            }
+          },
+          "case_count": 15,
+          "ratios": {
+            "Cross-block target disabled": {
+              "ci_high": 1.0605409534401549,
+              "ci_low": 1.0480071429568882,
+              "estimate": 1.0538799214629966
+            },
+            "ReCAST core disabled": {
+              "ci_high": 1.053933032279906,
+              "ci_low": 1.0472673766239895,
+              "estimate": 1.0504323880508852
+            },
+            "Target domain disabled": {
+              "ci_high": 1.0695368429281575,
+              "ci_low": 1.0557388368414853,
+              "estimate": 1.0619693186056436
+            }
+          }
+        }
+      },
+      "label": "Memory",
+      "ratios": {
+        "Cross-block target disabled": {
+          "ci_high": 1.0604450313044547,
+          "ci_low": 1.0538942340523436,
+          "estimate": 1.0570751528605293
+        },
+        "ReCAST core disabled": {
+          "ci_high": 1.0635846306556505,
+          "ci_low": 1.0589622752511962,
+          "estimate": 1.0612193743755014
+        },
+        "Target domain disabled": {
+          "ci_high": 1.0675444983536142,
+          "ci_low": 1.0608769700629992,
+          "estimate": 1.0640678808101967
+        }
+      }
+    },
+    "stack": {
+      "absolute_time": {
+        "Cross-block target disabled": {
+          "ci_high_ns": 806.3862077369629,
+          "ci_low_ns": 803.4660081075333,
+          "estimate_ns": 804.8620334299156
+        },
+        "Full ReCAST": {
+          "ci_high_ns": 743.2004842185919,
+          "ci_low_ns": 737.9448718360077,
+          "estimate_ns": 740.143039857286
+        },
+        "ReCAST core disabled": {
+          "ci_high_ns": 821.0698161694411,
+          "ci_low_ns": 818.6497965511578,
+          "estimate_ns": 819.8262686981034
+        },
+        "Target domain disabled": {
+          "ci_high_ns": 811.5250844034229,
+          "ci_low_ns": 808.787022471964,
+          "estimate_ns": 810.1363305865267
+        }
+      },
+      "case_count": 27,
+      "densities": {
+        "high": {
+          "absolute_time": {
+            "Cross-block target disabled": {
+              "ci_high_ns": 959.5255043485033,
+              "ci_low_ns": 952.7180239563223,
+              "estimate_ns": 955.8092492760327
+            },
+            "Full ReCAST": {
+              "ci_high_ns": 802.6248603182428,
+              "ci_low_ns": 797.4688409393868,
+              "estimate_ns": 799.8869447004254
+            },
+            "ReCAST core disabled": {
+              "ci_high_ns": 978.0265977643176,
+              "ci_low_ns": 972.1165832508378,
+              "estimate_ns": 975.0540582109861
+            },
+            "Target domain disabled": {
+              "ci_high_ns": 970.2309222807754,
+              "ci_low_ns": 962.2998391465463,
+              "estimate_ns": 966.3021149164222
+            }
+          },
+          "case_count": 9,
+          "ratios": {
+            "Cross-block target disabled": {
+              "ci_high": 1.2008561894022287,
+              "ci_low": 1.189234491851,
+              "estimate": 1.1949304281169428
+            },
+            "ReCAST core disabled": {
+              "ci_high": 1.2243152434162938,
+              "ci_low": 1.2135786638618091,
+              "estimate": 1.218989839340564
+            },
+            "Target domain disabled": {
+              "ci_high": 1.2142629530609226,
+              "ci_low": 1.2015711142979948,
+              "estimate": 1.2080483639826411
+            }
+          }
+        },
+        "low": {
+          "absolute_time": {
+            "Cross-block target disabled": {
+              "ci_high_ns": 715.3680294174621,
+              "ci_low_ns": 712.0805011791658,
+              "estimate_ns": 713.6575105642369
+            },
+            "Full ReCAST": {
+              "ci_high_ns": 710.6874420140293,
+              "ci_low_ns": 704.7900264353029,
+              "estimate_ns": 707.5296613521019
+            },
+            "ReCAST core disabled": {
+              "ci_high_ns": 730.5476639625057,
+              "ci_low_ns": 727.2862712109279,
+              "estimate_ns": 728.7588435457069
+            },
+            "Target domain disabled": {
+              "ci_high_ns": 720.3338802190993,
+              "ci_low_ns": 717.0182727119276,
+              "estimate_ns": 718.5223355263072
+            }
+          },
+          "case_count": 9,
+          "ratios": {
+            "Cross-block target disabled": {
+              "ci_high": 1.0129976278629638,
+              "ci_low": 1.0040462420505354,
+              "estimate": 1.0086609078698192
+            },
+            "ReCAST core disabled": {
+              "ci_high": 1.0347531092750042,
+              "ci_low": 1.0250361885853414,
+              "estimate": 1.0300046533074467
+            },
+            "Target domain disabled": {
+              "ci_high": 1.0203076281173935,
+              "ci_low": 1.0104298661794542,
+              "estimate": 1.0155366972929418
+            }
+          }
+        },
+        "medium": {
+          "absolute_time": {
+            "Cross-block target disabled": {
+              "ci_high_ns": 767.1059667466917,
+              "ci_low_ns": 761.9350415638986,
+              "estimate_ns": 764.3693339726192
+            },
+            "Full ReCAST": {
+              "ci_high_ns": 724.730151000357,
+              "ci_low_ns": 711.68284444665,
+              "estimate_ns": 716.4299263113803
+            },
+            "ReCAST core disabled": {
+              "ci_high_ns": 777.3295166929659,
+              "ci_low_ns": 773.7870062969554,
+              "estimate_ns": 775.4484944712
+            },
+            "Target domain disabled": {
+              "ci_high_ns": 767.4394714654633,
+              "ci_low_ns": 764.6154968909375,
+              "estimate_ns": 765.8101580415142
+            }
+          },
+          "case_count": 9,
+          "ratios": {
+            "Cross-block target disabled": {
+              "ci_high": 1.0746559037860486,
+              "ci_low": 1.0546772939614155,
+              "estimate": 1.0669143008975912
+            },
+            "ReCAST core disabled": {
+              "ci_high": 1.0899405398328226,
+              "ci_low": 1.0700752926365553,
+              "estimate": 1.0823787030556964
+            },
+            "Target domain disabled": {
+              "ci_high": 1.076105576636933,
+              "ci_low": 1.0565686475358975,
+              "estimate": 1.06892541742969
+            }
+          }
+        }
+      },
+      "label": "Stack SSA",
+      "ratios": {
+        "Cross-block target disabled": {
+          "ci_high": 1.0911463428645218,
+          "ci_low": 1.082725418832997,
+          "estimate": 1.087441197292227
+        },
+        "ReCAST core disabled": {
+          "ci_high": 1.1113169278997719,
+          "ci_low": 1.1029510538107545,
+          "estimate": 1.1076592287568925
+        },
+        "Target domain disabled": {
+          "ci_high": 1.0983765829693812,
+          "ci_low": 1.0896874688628946,
+          "estimate": 1.0945672484371896
+        }
+      }
+    },
+    "u256": {
+      "absolute_time": {
+        "Cross-block target disabled": {
+          "ci_high_ns": 809.5269347373318,
+          "ci_low_ns": 805.1699485998707,
+          "estimate_ns": 807.1553402406222
+        },
+        "Full ReCAST": {
+          "ci_high_ns": 738.5339970388673,
+          "ci_low_ns": 731.3531817878107,
+          "estimate_ns": 734.5135776224463
+        },
+        "ReCAST core disabled": {
+          "ci_high_ns": 849.2960610073485,
+          "ci_low_ns": 842.3092769434302,
+          "estimate_ns": 845.1069195608086
+        },
+        "Target domain disabled": {
+          "ci_high_ns": 808.556048839971,
+          "ci_low_ns": 803.8388007669538,
+          "estimate_ns": 805.9904361531103
+        }
+      },
+      "case_count": 27,
+      "densities": {
+        "high": {
+          "absolute_time": {
+            "Cross-block target disabled": {
+              "ci_high_ns": 1072.1724031892716,
+              "ci_low_ns": 1056.7509430845466,
+              "estimate_ns": 1062.9865890441838
+            },
+            "Full ReCAST": {
+              "ci_high_ns": 890.7385208309477,
+              "ci_low_ns": 874.2573862297629,
+              "estimate_ns": 881.3334138356754
+            },
+            "ReCAST core disabled": {
+              "ci_high_ns": 1168.3347622318297,
+              "ci_low_ns": 1158.9489679824947,
+              "estimate_ns": 1162.8757086183211
+            },
+            "Target domain disabled": {
+              "ci_high_ns": 1074.9526185645352,
+              "ci_low_ns": 1058.4413271536473,
+              "estimate_ns": 1064.8377052509852
+            }
+          },
+          "case_count": 9,
+          "ratios": {
+            "Cross-block target disabled": {
+              "ci_high": 1.2115870415215308,
+              "ci_low": 1.1971081901573153,
+              "estimate": 1.2061117533464782
+            },
+            "ReCAST core disabled": {
+              "ci_high": 1.3273097217959435,
+              "ci_low": 1.3085455837251196,
+              "estimate": 1.3194503809373774
+            },
+            "Target domain disabled": {
+              "ci_high": 1.2133007027700171,
+              "ci_low": 1.1992867930490894,
+              "estimate": 1.2082121119369293
+            }
+          }
+        },
+        "low": {
+          "absolute_time": {
+            "Cross-block target disabled": {
+              "ci_high_ns": 660.3011480084508,
+              "ci_low_ns": 657.679487126474,
+              "estimate_ns": 658.8987906846248
+            },
+            "Full ReCAST": {
+              "ci_high_ns": 657.7141632948017,
+              "ci_low_ns": 644.803180493544,
+              "estimate_ns": 649.3691458064687
+            },
+            "ReCAST core disabled": {
+              "ci_high_ns": 681.3669452348622,
+              "ci_low_ns": 670.1422243957463,
+              "estimate_ns": 673.7220631042404
+            },
+            "Target domain disabled": {
+              "ci_high_ns": 658.8851638094801,
+              "ci_low_ns": 654.8907272596985,
+              "estimate_ns": 656.5900764829004
+            }
+          },
+          "case_count": 9,
+          "ratios": {
+            "Cross-block target disabled": {
+              "ci_high": 1.0225487923988916,
+              "ci_low": 1.001621192424059,
+              "estimate": 1.0146752350950106
+            },
+            "ReCAST core disabled": {
+              "ci_high": 1.0485912333021647,
+              "ci_low": 1.0248142399239557,
+              "estimate": 1.0375024243991868
+            },
+            "Target domain disabled": {
+              "ci_high": 1.0185670050645252,
+              "ci_low": 0.9992423995195022,
+              "estimate": 1.0111199164959768
+            }
+          }
+        },
+        "medium": {
+          "absolute_time": {
+            "Cross-block target disabled": {
+              "ci_high_ns": 753.0216537938348,
+              "ci_low_ns": 748.5899646558456,
+              "estimate_ns": 750.8010607703734
+            },
+            "Full ReCAST": {
+              "ci_high_ns": 695.5299959045009,
+              "ci_low_ns": 689.9043944148962,
+              "estimate_ns": 692.4168042547644
+            },
+            "ReCAST core disabled": {
+              "ci_high_ns": 778.0679271816762,
+              "ci_low_ns": 766.2482113411601,
+              "estimate_ns": 770.4082137471188
+            },
+            "Target domain disabled": {
+              "ci_high_ns": 750.97109263798,
+              "ci_low_ns": 746.9266310306517,
+              "estimate_ns": 748.8794789600846
+            }
+          },
+          "case_count": 9,
+          "ratios": {
+            "Cross-block target disabled": {
+              "ci_high": 1.089403106378845,
+              "ci_low": 1.0787652048771335,
+              "estimate": 1.0843195256915332
+            },
+            "ReCAST core disabled": {
+              "ci_high": 1.1247729903825205,
+              "ci_low": 1.1042719940251897,
+              "estimate": 1.1126365059500471
+            },
+            "Target domain disabled": {
+              "ci_high": 1.0858908923663428,
+              "ci_low": 1.076652441988811,
+              "estimate": 1.0815443449066635
+            }
+          }
+        }
+      },
+      "label": "Bounded-word arithmetic",
+      "ratios": {
+        "Cross-block target disabled": {
+          "ci_high": 1.1029754265866494,
+          "ci_low": 1.0933858917972794,
+          "estimate": 1.0988977805601778
+        },
+        "ReCAST core disabled": {
+          "ci_high": 1.156800771983551,
+          "ci_low": 1.1443016995437056,
+          "estimate": 1.1505667768543406
+        },
+        "Target domain disabled": {
+          "ci_high": 1.1010798739336471,
+          "ci_low": 1.0922457853512697,
+          "estimate": 1.0973118274573332
+        }
+      }
+    }
+  },
+  "formal_rows": 4752,
+  "schema_version": 2,
+  "status": "complete"
+}

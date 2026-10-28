@@ -1,0 +1,26 @@
+{
+  "schema": "recast-running-example-oracle-v2",
+  "program": "Figure 1 running example: B0 mask+branch, B1 MSTORE(0x40,x), B2 CALLDATACOPY(0x40,0,0x20), B3 LT(x,0x20) MSIZE KECCAK256(off,0x20)",
+  "query_point_pc": "0x28",
+  "covered": {
+    "keccak_offset": "0x40",
+    "expect_helper": "GetKeccak256NoExpand",
+    "forbid_helper": "GetKeccak256",
+    "expect_lines": [
+      "cmp iult ($41, const.i64 32)",
+      "$46 = $5",
+      "phi [@2: $24, @9: $33]"
+    ]
+  },
+  "uncovered": {
+    "keccak_offset": "0x60",
+    "expect_helper": "GetKeccak256",
+    "forbid_helper": "GetKeccak256NoExpand",
+    "expect_lines": [
+      "cmp iult ($41, const.i64 32)",
+      "$46 = $5",
+      "phi [@2: $24, @9: $33]"
+    ]
+  },
+  "note": "off is pushed as the same constant on both paths and is constant-folded; phi merges x's four limbs ($41-$44)."
+}

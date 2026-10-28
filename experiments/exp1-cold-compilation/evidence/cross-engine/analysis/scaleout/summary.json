@@ -1,0 +1,128 @@
+{
+  "attempted_codes": 4063,
+  "attempted_records": 24378,
+  "cells": {
+    "Q1-High": {
+      "ci95": [
+        0.3491226700200471,
+        0.3658916055798652
+      ],
+      "codes": 339,
+      "geometric_mean_ratio": 0.3573090846417084
+    },
+    "Q1-Low": {
+      "ci95": [
+        0.2044042321657788,
+        0.21064360253152212
+      ],
+      "codes": 338,
+      "geometric_mean_ratio": 0.20751087127206824
+    },
+    "Q1-Medium": {
+      "ci95": [
+        0.3348702800122377,
+        0.3586190912094339
+      ],
+      "codes": 338,
+      "geometric_mean_ratio": 0.34657865606673366
+    },
+    "Q2-High": {
+      "ci95": [
+        0.34068499955542214,
+        0.3711523136309788
+      ],
+      "codes": 339,
+      "geometric_mean_ratio": 0.3560675338545811
+    },
+    "Q2-Low": {
+      "ci95": [
+        0.3584736918358441,
+        0.3827956782267565
+      ],
+      "codes": 338,
+      "geometric_mean_ratio": 0.3709367044283337
+    },
+    "Q2-Medium": {
+      "ci95": [
+        0.33914122012054526,
+        0.36105659652714195
+      ],
+      "codes": 339,
+      "geometric_mean_ratio": 0.3502208282544883
+    },
+    "Q3-High": {
+      "ci95": [
+        0.4455650766295797,
+        0.47288673941641607
+      ],
+      "codes": 339,
+      "geometric_mean_ratio": 0.45884503910656693
+    },
+    "Q3-Low": {
+      "ci95": [
+        0.4536772525806616,
+        0.4931852651642908
+      ],
+      "codes": 338,
+      "geometric_mean_ratio": 0.47331317949417867
+    },
+    "Q3-Medium": {
+      "ci95": [
+        0.43816644949541106,
+        0.4672996278639367
+      ],
+      "codes": 339,
+      "geometric_mean_ratio": 0.4530733852142513
+    },
+    "Q4-High": {
+      "ci95": [
+        0.43921795677533737,
+        0.4560431645600575
+      ],
+      "codes": 339,
+      "geometric_mean_ratio": 0.44744898344941436
+    },
+    "Q4-Low": {
+      "ci95": [
+        0.47963510674530946,
+        0.5059239785361237
+      ],
+      "codes": 338,
+      "geometric_mean_ratio": 0.49218713884952925
+    },
+    "Q4-Medium": {
+      "ci95": [
+        0.552576529305768,
+        0.5689796393799327
+      ],
+      "codes": 339,
+      "geometric_mean_ratio": 0.5609205138061089
+    }
+  },
+  "ci95": [
+    0.391700414347134,
+    0.3985572219137503
+  ],
+  "ci95_relative_half_width": 0.008677480450752917,
+  "dtvm_all_success_codes": 4063,
+  "dtvm_median_ms": 330.368479,
+  "dtvm_wins": 4030,
+  "geometric_mean_ratio": 0.39509207802487106,
+  "paired_codes": 4063,
+  "pearson_log_ratio_vs_cfg_score": 0.12421994590775896,
+  "pearson_log_ratio_vs_log_bytecode_bytes": 0.6240775186605223,
+  "ratio_p50": 0.4211429762235682,
+  "ratio_p90": 0.5956581131951186,
+  "ratio_p95": 0.6063625176158544,
+  "ratio_p99": 0.791653582834301,
+  "raw_sha256": "baef8eeb697d2c2b9a61186b8fd6cdcaa470f1f9267d9019aac6bd279d8b9295",
+  "revmc_all_success_codes": 4063,
+  "revmc_median_ms": 771.249307,
+  "revmc_wins": 33,
+  "run_manifest_sha256": "9ed11056d94ab676b1cf0a002c5dd54faa52ae64d3a81f866ca604dc3ca54d7d",
+  "schema_version": 1,
+  "status_counts": {
+    "success": 24378
+  },
+  "ties": 0
+}

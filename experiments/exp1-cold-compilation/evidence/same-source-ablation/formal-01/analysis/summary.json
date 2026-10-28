@@ -1,0 +1,41 @@
+{
+  "ci95": [
+    0.9871543070868785,
+    1.001612541054777
+  ],
+  "contracts": 1200,
+  "equivalence_bounds": [
+    0.97,
+    1.03
+  ],
+  "equivalent": true,
+  "observation_overhead": {
+    "v000_timing_over_off_geomean": 0.9972535129726163,
+    "v111_timing_over_off_geomean": 0.9970714264672238
+  },
+  "primary_metric": "per-contract median pipeline_compile_ns; geomean V111/V000",
+  "quality": {
+    "measurements": 31200,
+    "pair_order_counts": {
+      "off.V000.position_1": 6000,
+      "off.V000.position_2": 6000,
+      "off.V111.position_1": 6000,
+      "off.V111.position_2": 6000,
+      "timing.V000.position_1": 1800,
+      "timing.V000.position_2": 1800,
+      "timing.V111.position_1": 1800,
+      "timing.V111.position_2": 1800
+    }
+  },
+  "schema_version": 1,
+  "total_cold_sensitivity": {
+    "ci95": [
+      0.9872512212762748,
+      1.0018627951216852
+    ],
+    "v111_over_v000_geomean": 0.994707609717765
+  },
+  "v111_over_v000_geomean": 0.9947001436178106,
+  "v111_rcs_analysis_share_external_median": 0.008817241712415092,
+  "v111_rcs_analysis_share_internal_median": 0.008994527314767376
+}

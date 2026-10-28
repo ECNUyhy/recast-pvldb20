@@ -1,0 +1,27 @@
+{
+  "case_count": 63556,
+  "cases_by_fork": {
+    "Berlin": 1249,
+    "Byzantium": 454,
+    "Cancun": 16847,
+    "ConstantinopleFix": 463,
+    "Frontier": 363,
+    "Homestead": 373,
+    "Istanbul": 608,
+    "London": 1504,
+    "Osaka": 19517,
+    "Paris": 1564,
+    "Prague": 18869,
+    "Shanghai": 1745
+  },
+  "generated_at_utc": "2026-08-23T02:32:17.706300+00:00",
+  "generator_python": "3.12.9",
+  "json_file_count": 2723,
+  "json_tree_sha256": "0d6f9da78747f9e78debbdd326e92d4ee6e74ab3f5f711ac2560755de16e8efd",
+  "root": "<local>",
+  "schema_version": 1,
+  "semantic_case_set_sha256": "363acce1e63f9cf38fc58b5fbce7c0e8563517e06a390d2dcd8947ee1c9f2445",
+  "source_archive_sha256": "3e2b02d49fe903eda4fd8caca5cbf0d139c470e97e1de9a85299b1b034f97099",
+  "source_id": "execution-spec-tests-v5.4.0",
+  "state_test_count": 63556
+}

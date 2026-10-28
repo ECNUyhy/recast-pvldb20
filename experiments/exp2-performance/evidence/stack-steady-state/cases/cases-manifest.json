@@ -1,0 +1,174 @@
+{
+  "cases": [
+    {
+      "code_bytes": 1921,
+      "code_file_sha256": "3f13033c9ca57d7dfea7c98e66cd2703e0ceb2a6a658a1bc9b7cb920f9fa8b75",
+      "code_path": "<local>",
+      "code_sha256": "7a4f1c5900bf91d7841aec4fe006ffe2785a75cfa997febc57163e53cfe817fa",
+      "family": "swap_math",
+      "fixture": "<local>",
+      "input_bytes": 164,
+      "input_file_sha256": "25bf0c8cf9c99f6f28a67aea1943bf9b5ec3a5f3a6b8cd34a0730ddb0147d19b",
+      "input_path": "<local>",
+      "input_sha256": "99b65b1cb62fd6670e73428bcd037d7578cd3e7e257760f24657cc362e98cd48",
+      "name": "swap_math-spent",
+      "static_opcode_census": {
+        "control_flow": 222,
+        "decoded_opcodes": 1373,
+        "dup": 276,
+        "pop": 74,
+        "push": 361,
+        "push_pop_dup_swap": 820,
+        "swap": 109
+      },
+      "variant": "spent"
+    },
+    {
+      "code_bytes": 1921,
+      "code_file_sha256": "3f13033c9ca57d7dfea7c98e66cd2703e0ceb2a6a658a1bc9b7cb920f9fa8b75",
+      "code_path": "<local>",
+      "code_sha256": "7a4f1c5900bf91d7841aec4fe006ffe2785a75cfa997febc57163e53cfe817fa",
+      "family": "swap_math",
+      "fixture": "<local>",
+      "input_bytes": 164,
+      "input_file_sha256": "7aa61b2dcad10ecc23677a72235fdf06e2cbb8a0ab3d6c55a1100711766f9202",
+      "input_path": "<local>",
+      "input_sha256": "f5738187df6b885ae5eecc020d9b330ca32ca6ec61ea540a00b59e03367b907a",
+      "name": "swap_math-received",
+      "static_opcode_census": {
+        "control_flow": 222,
+        "decoded_opcodes": 1373,
+        "dup": 276,
+        "pop": 74,
+        "push": 361,
+        "push_pop_dup_swap": 820,
+        "swap": 109
+      },
+      "variant": "received"
+    },
+    {
+      "code_bytes": 1921,
+      "code_file_sha256": "3f13033c9ca57d7dfea7c98e66cd2703e0ceb2a6a658a1bc9b7cb920f9fa8b75",
+      "code_path": "<local>",
+      "code_sha256": "7a4f1c5900bf91d7841aec4fe006ffe2785a75cfa997febc57163e53cfe817fa",
+      "family": "swap_math",
+      "fixture": "<local>",
+      "input_bytes": 164,
+      "input_file_sha256": "46ff588f675c7fd3f9abb14ad94ef3303f726b8e47d1407b6345e8396d7d3c86",
+      "input_path": "<local>",
+      "input_sha256": "a482a2c2c145bc4adc541c50bed00dada6d2bb575075d80994f0241083538abb",
+      "name": "swap_math-insufficient_liquidity",
+      "static_opcode_census": {
+        "control_flow": 222,
+        "decoded_opcodes": 1373,
+        "dup": 276,
+        "pop": 74,
+        "push": 361,
+        "push_pop_dup_swap": 820,
+        "swap": 109
+      },
+      "variant": "insufficient_liquidity"
+    },
+    {
+      "code_bytes": 20481,
+      "code_file_sha256": "2c321f7d52c3b03578396f931c1b908360bf2ca1bee408cc9f421147f75449c0",
+      "code_path": "<local>",
+      "code_sha256": "4343e0450d86fd28ac7bee1f799cb9e3cf117a84efba6cd8592b7b9e7753aab8",
+      "family": "jump_around",
+      "fixture": "<local>",
+      "input_bytes": 0,
+      "input_file_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "input_path": "<local>",
+      "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "name": "jump_around-empty",
+      "static_opcode_census": {
+        "control_flow": 8193,
+        "decoded_opcodes": 12289,
+        "dup": 0,
+        "pop": 0,
+        "push": 4096,
+        "push_pop_dup_swap": 4096,
+        "swap": 0
+      },
+      "variant": "empty"
+    },
+    {
+      "code_bytes": 24576,
+      "code_file_sha256": "b93593a157d314324f5fa9ecdde87892bd6e197785f5d64d195a122e50b37d12",
+      "code_path": "<local>",
+      "code_sha256": "4be5af03b654964087219406ecc4b0c13e2e9c8e30c10caffa6bdeef8977c5e0",
+      "family": "loop_with_many_jumpdests",
+      "fixture": "<local>",
+      "input_bytes": 0,
+      "input_file_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "input_path": "<local>",
+      "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "name": "loop_with_many_jumpdests-empty",
+      "static_opcode_census": {
+        "control_flow": 24557,
+        "decoded_opcodes": 24571,
+        "dup": 4,
+        "pop": 0,
+        "push": 4,
+        "push_pop_dup_swap": 8,
+        "swap": 0
+      },
+      "variant": "empty"
+    }
+  ],
+  "fixtures": [
+    {
+      "generated_test_hash": "d44e7ee54cd38777fb0ffbc21eba1b4c617e4312afc2ab5cf7847475522ef78c",
+      "group": "main",
+      "path": "<local>",
+      "sha256": "58d3cf555e7d26c72d2d402c95db4eb8536477e1f251c726b7f782b7b95ea38c",
+      "source_hash": "adc826a54860eed1e577724a12c2de0e0160bef1a9321e81120570adf5e32bca",
+      "static_opcode_census": {
+        "control_flow": 222,
+        "decoded_opcodes": 1373,
+        "dup": 276,
+        "pop": 74,
+        "push": 361,
+        "push_pop_dup_swap": 820,
+        "swap": 109
+      }
+    },
+    {
+      "generated_test_hash": "682d204267cf3a3909bf22c063f2c9cde06a917d56f3666bad7ff4c724b3676b",
+      "group": "micro",
+      "path": "<local>",
+      "sha256": "0e63d9c8dbd22514896d07f98df3f020025e0f88f8dd6bd6f1555959e2ee14f2",
+      "source_hash": "cadfd8a7ee22cbefac3a420cc4c762ca1a3a38ae3346407bd31694acff16c78e",
+      "static_opcode_census": {
+        "control_flow": 8193,
+        "decoded_opcodes": 12289,
+        "dup": 0,
+        "pop": 0,
+        "push": 4096,
+        "push_pop_dup_swap": 4096,
+        "swap": 0
+      }
+    },
+    {
+      "generated_test_hash": "6705dcf14ca877810b543d471e2e07a0db024405863de069eeddaf29a53531fd",
+      "group": "micro",
+      "path": "<local>",
+      "sha256": "b1d6f4e10c34b381c0e64e8c86bd18bd91dab75d6ffb8b7862ce711a4eb15e41",
+      "source_hash": "d6102e691b595ce00d2b0a1009096fe4499d67190aea6358a11b3b993dbad854",
+      "static_opcode_census": {
+        "control_flow": 24557,
+        "decoded_opcodes": 24571,
+        "dup": 4,
+        "pop": 0,
+        "push": 4,
+        "push_pop_dup_swap": 8,
+        "swap": 0
+      }
+    }
+  ],
+  "fork": "Cancun",
+  "message_gas_limit": 9223372036854775807,
+  "schema": "recast-exp2-stack-control-flow-cases-v1",
+  "selection_basis": "named public stack-manipulation and control-flow fixtures",
+  "suite": "ipsilon/evm-benchmarks named public stack/control-flow fixtures"
+}
